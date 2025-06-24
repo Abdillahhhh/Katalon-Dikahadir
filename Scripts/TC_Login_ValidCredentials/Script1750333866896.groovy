@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Buka Browser'
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+
+'Input Email'
+WebUI.setText(findTestObject('Page_Login/Email Field'), 'admin@hadir.com')
+
+'Input Password'
+WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+
+'Klik login button'
+WebUI.click(findTestObject('Object Repository/Page_Login/Login Button'))
+
+'Verify Header Page Dashboard "Dashboard Menu" Visible by user'
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_DashboardMenu/Header Dashboard'))
+
+'Verify Header page Dashboard "Dashboard Menu"'
+WebUI.verifyElementText(findTestObject('Object Repository/Page_DashboardMenu/Header Dashboard'), 'Dashboard Menu')
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+

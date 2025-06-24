@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>TC_Add_Absen_Point_Success</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>41a5d657-fb53-41c9-9fd6-c2e33bbce16f</testCaseGuid>
+   <testCaseGuid>72bf5c35-c7e3-442a-b0a4-f760b1c866e3</testCaseGuid>
 </TestCaseEntity>
