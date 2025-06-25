@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>polyline</name>
+   <tag></tag>
+   <elementGuidId>59c666e1-75ae-4477-aee2-3ef2afc78004</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>polyline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>polyline</value>
+      <webElementGuid>fac2b924-24df-4b5e-b61b-0ee092a21408</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>points</name>
+      <type>Main</type>
+      <value>15 18 9 12 15 6</value>
+      <webElementGuid>510ea204-a768-4482-b4a0-12c62bacf6dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthSm css-ewqxmf&quot;]/div[1]/div[@class=&quot;MuiBox-root css-xrxg2n&quot;]/div[@class=&quot;MuiBox-root css-xbmygv&quot;]/div[@class=&quot;MuiBox-root css-16s6j5r&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-color#ffff MuiIconButton-sizeMedium css-1enmvey&quot;]/svg[@class=&quot;feather feather-chevron-left&quot;]/g[1]/polyline[1]</value>
+      <webElementGuid>74c03ca9-f4fb-4a12-b81a-98cfeb9c8c11</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
