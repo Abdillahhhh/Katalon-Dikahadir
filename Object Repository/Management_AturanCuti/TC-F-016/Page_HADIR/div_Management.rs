@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Management</name>
+   <tag></tag>
+   <elementGuidId>18cf184d-2e9d-4ead-94c3-a1b651e3f90a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[56]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Management$/ >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7271707f-0222-47f9-b917-ec7d4a6aa2cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar__item MuiBox-root css-0</value>
+      <webElementGuid>61e33179-a45f-4935-9185-a66127a5db62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Management</value>
+      <webElementGuid>612fabd0-edf3-4ca2-b6d3-6dda39c9bb1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;MuiDrawer-root MuiDrawer-modal MuiModal-root css-y28f86&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation16 MuiDrawer-paper MuiDrawer-paperAnchorLeft css-jzonrr&quot;]/div[1]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;MuiBox-root css-10klw3m&quot;]/div[@class=&quot;sidebar MuiBox-root css-ftf74w&quot;]/div[@class=&quot;MuiBox-root css-old1by&quot;]/div[@class=&quot;MuiBox-root css-mkf7ch&quot;]/div[@class=&quot;MuiBox-root css-8atqhb&quot;]/div[@class=&quot;sidebar__wrapper MuiBox-root css-1tkg8nm&quot;]/div[@class=&quot;sidebar__item MuiBox-root css-0&quot;]</value>
+      <webElementGuid>18181726-f82e-411b-9145-db3934465d08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[56]</value>
+      <webElementGuid>eb658d1e-ecda-42f4-96e4-d1dba9346577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Password'])[1]/following::div[56]</value>
+      <webElementGuid>72415ac9-22bd-43af-abb6-ea98fed230c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]</value>
+      <webElementGuid>92af8f68-2cd6-48e9-a5c3-9b297174406f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Management' or . = 'Management')]</value>
+      <webElementGuid>ca8fdd46-72a3-4333-a86f-46b5b907ffc0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

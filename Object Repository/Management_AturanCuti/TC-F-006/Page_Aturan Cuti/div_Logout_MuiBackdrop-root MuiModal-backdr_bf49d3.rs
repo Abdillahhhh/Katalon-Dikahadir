@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3</name>
+   <tag></tag>
+   <elementGuidId>248c1908-2c47-406d-947a-8e6fc500c3c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBackdrop-root.MuiModal-backdrop.css-919eu4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.MuiDrawer-root > .MuiBackdrop-root</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b6b419d0-d063-4e6e-ada4-a830a11b8fcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>959d90bb-91e4-4a3b-9744-1131138b9f4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBackdrop-root MuiModal-backdrop css-919eu4</value>
+      <webElementGuid>ed4c0bcc-6cc0-42cc-9740-fcfd5237f845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;MuiDrawer-root MuiDrawer-modal MuiModal-root css-y28f86&quot;]/div[@class=&quot;MuiBackdrop-root MuiModal-backdrop css-919eu4&quot;]</value>
+      <webElementGuid>57d7f97a-8dc4-4094-8c30-9df0c3e3df43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>eb9a4ebe-cdb0-4166-969d-2f31d19e36a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
