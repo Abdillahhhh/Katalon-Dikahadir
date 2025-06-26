@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Menu Management</name>
+   <name>Menu_Management</name>
    <tag></tag>
    <elementGuidId>67e159be-2a1e-4a55-8513-c75ec0710017</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

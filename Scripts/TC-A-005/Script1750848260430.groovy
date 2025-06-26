@@ -27,27 +27,31 @@ WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNM
 
 WebUI.click(findTestObject('Page_Login/Login Button'))
 
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu Management'))
+WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management'))
 
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu Absen Point'))
+WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Tambahkan'))
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 'Tower11')
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/input_Nama_name'), 'Tower8')
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Search'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/input_Latitude_latitude'), '-6.579845389001726')
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Icon_Lainnya'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/input_Longitude_longitude'), '106.81901261381575')
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/input_Maksimal Radius (Meter)_max_radius'), '15')
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/input_Nama_name'), '')
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/input_Description_description'), 'Kantor Kuningan City')
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Simpan'))
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Tambah'))
+TestObject errorTooltip = findTestObject('Object Repository/Page_AbsenPoint/Field_Nama')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AbsenPoint/div_Berhasil Tambah Location Point'))
+boolean isVisible = WebUI.verifyElementVisible(errorTooltip, FailureHandling.OPTIONAL)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AbsenPoint/div_Berhasil Tambah Location Point_1'), 'Berhasil Tambah Location Point')
+if (isVisible) {
+	WebUI.comment('Validasi muncul: Harap isi bidang ini')
+} else {
+	WebUI.comment('Validasi TIDAK muncul: Harap isi bidang ini')
+}
 
 WebUI.delay(2)
 

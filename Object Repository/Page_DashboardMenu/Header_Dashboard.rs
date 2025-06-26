@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Header Dashboard</name>
+   <name>Header_Dashboard</name>
    <tag></tag>
    <elementGuidId>6f9b97ff-b240-45c3-b2c2-2bb279382554</elementGuidId>
    <selectorCollection>

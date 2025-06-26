@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b1b9b7b5-6d35-47a2-83a1-9a227d1010fc</webElementGuid>
+      <webElementGuid>6e86e883-317b-4774-9bfc-ee1bc3fdb322</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium button-add css-4075ia</value>
-      <webElementGuid>e6d58f57-0892-4984-b83c-76388f603485</webElementGuid>
+      <webElementGuid>5afd1aa1-f0ab-4e15-b367-fdfb3b43f561</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>bfcfe94d-7990-4589-bf06-d76ce9e7e7fd</webElementGuid>
+      <webElementGuid>4f54b2cc-5978-4b2b-a96a-63bd24243d78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ab574461-cbb2-4d7e-8256-627683227524</webElementGuid>
+      <webElementGuid>9606c740-95ac-4128-9834-54fbb569ca64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tambahkan</value>
-      <webElementGuid>98695455-b392-47c7-9dc2-7bd2c284025d</webElementGuid>
+      <webElementGuid>3193fd66-97d4-4ea3-b2cf-395cdf0da924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;css-10f63sf&quot;]/div[@class=&quot;css-11qbmxu&quot;]/div[@class=&quot;MuiContainer-root css-1p62yps&quot;]/div[@class=&quot;MuiBox-root css-76jx17&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1d3bbye&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-12 css-15j76c0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-oim7up&quot;]/div[@class=&quot;MuiBox-root css-1pbadgm&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium button-add css-4075ia&quot;]</value>
-      <webElementGuid>6d233de0-e593-4864-af20-6ef5b846bd93</webElementGuid>
+      <webElementGuid>b05eb9f1-5ded-4c1c-ad25-a5d38b51e1f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>361d1077-b8c3-43f4-83ff-c71a101e9d5e</webElementGuid>
+      <webElementGuid>1292e175-19ec-4e90-a92d-1365f055c3a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div/button</value>
-      <webElementGuid>04660998-93b6-4c8b-941c-65027e5d271f</webElementGuid>
+      <webElementGuid>0ef69b7b-faf6-48c7-910f-ba9a8457ef4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::button[1]</value>
-      <webElementGuid>2f2bccd0-895b-44ca-bcdc-a5ace2b25f3a</webElementGuid>
+      <webElementGuid>05f38776-e8ba-406b-8d3d-620105fa000d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::button[2]</value>
-      <webElementGuid>ef9e93bc-fe36-4cbc-8adc-bd762ee8a6d6</webElementGuid>
+      <webElementGuid>b57a6f6a-2c3b-4871-8be6-067c991aa5f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NAMA'])[1]/preceding::button[1]</value>
-      <webElementGuid>3414bc81-d22b-4883-92a7-eeba55a44485</webElementGuid>
+      <webElementGuid>d879140b-2e77-4eb0-9e05-3499f160ded6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='LATITUDE'])[1]/preceding::button[1]</value>
-      <webElementGuid>8ec61623-5505-4ac5-9452-584917361dc4</webElementGuid>
+      <webElementGuid>334b4632-34a5-4cc1-afce-69cd72120400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tambahkan']/parent::*</value>
-      <webElementGuid>0897a584-3973-42d0-a74a-005b6f94dd2c</webElementGuid>
+      <webElementGuid>07add853-9b0f-4f24-857a-0cc8d678318f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/button</value>
-      <webElementGuid>cfa45838-8966-466b-9a0a-f1a38cfa7762</webElementGuid>
+      <webElementGuid>5bc33bbb-25e1-41fd-817c-25a6c56d2b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Tambahkan' or . = 'Tambahkan')]</value>
-      <webElementGuid>d5130f90-1e33-467f-8d36-99c5ddc30c7e</webElementGuid>
+      <webElementGuid>0aef25cf-fd7d-4e05-be6d-34a2423c4482</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

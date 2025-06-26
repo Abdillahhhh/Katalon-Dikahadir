@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Menu Absen Point</name>
+   <name>Menu_Absen_Point</name>
    <tag></tag>
    <elementGuidId>5889bb21-538e-48de-b7a5-6e2d76d85d65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

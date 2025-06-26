@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Description_description</name>
+   <name>Field_Maksimal_Radius</name>
    <tag></tag>
-   <elementGuidId>8b9bb226-1113-4bf3-ad56-85a0e74195a5</elementGuidId>
+   <elementGuidId>bbb117f6-f36f-4c57-b8f0-dee25e2039f6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#description</value>
+         <value>#max_radius</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='description']</value>
+         <value>//input[@id='max_radius']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5e6b5ba0-e711-4c6e-aee1-4190776dcf54</webElementGuid>
+      <webElementGuid>e3355874-f7d2-4214-8e47-409ccca85a57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,31 +31,31 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e4ca7fef-1c9c-4378-b455-3636a820fd60</webElementGuid>
+      <webElementGuid>9e59a2d8-ca14-497f-84e5-fa5231ed9849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>description</value>
-      <webElementGuid>e89068b5-c3db-42cd-913c-89cb2f752b7b</webElementGuid>
+      <value>max_radius</value>
+      <webElementGuid>46253259-b6c5-4eaf-8615-1c0398df18dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>description</value>
-      <webElementGuid>9f354d7b-b755-459b-8216-040e738897ca</webElementGuid>
+      <value>max_radius</value>
+      <webElementGuid>f79bdc93-c5b0-45d1-a0e8-fa6f47a88ad0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>802eed45-7df0-4fd5-a995-e111c3081070</webElementGuid>
+      <value>number</value>
+      <webElementGuid>5b66cf19-2005-4857-8c85-dae65be185fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,46 +63,46 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng</value>
-      <webElementGuid>ad2bbbca-2129-4b7d-b0b8-eb6ae4d7d4cf</webElementGuid>
+      <webElementGuid>8e05428f-c454-40ca-8442-d65e18e12238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;description&quot;)</value>
-      <webElementGuid>38f4e1b1-46b3-466c-b257-f4eacea1cd9f</webElementGuid>
+      <value>id(&quot;max_radius&quot;)</value>
+      <webElementGuid>3a04ff12-4064-41dc-af98-2967c4ddaf70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='description']</value>
-      <webElementGuid>ccbc562b-9769-4bfb-90a5-b5723052ccf3</webElementGuid>
+      <value>//input[@id='max_radius']</value>
+      <webElementGuid>da1e01d3-370c-4f77-960c-38f4f4167166</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='alert-dialog-slide-description']/div[5]/div/input</value>
-      <webElementGuid>853b955f-b692-40cd-aa63-d35821df56a8</webElementGuid>
+      <value>//div[@id='alert-dialog-slide-description']/div[4]/div/input</value>
+      <webElementGuid>b70d924f-42f5-4cd3-b415-64cf736011d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/input</value>
-      <webElementGuid>924b209f-f34f-414b-8b4c-7b722032064e</webElementGuid>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>76e01d4a-c12f-482c-ac7a-d0ea165b20a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'description' and @name = 'description' and @type = 'text']</value>
-      <webElementGuid>e78380ee-496b-4e74-b6f9-f9fe6d43aeaf</webElementGuid>
+      <value>//input[@id = 'max_radius' and @name = 'max_radius' and @type = 'number']</value>
+      <webElementGuid>3a1ce403-f477-4182-8c6f-759096c8797a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

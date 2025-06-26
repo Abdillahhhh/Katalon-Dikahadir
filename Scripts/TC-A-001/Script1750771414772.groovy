@@ -17,25 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Buka Browser'
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-'Input Email'
 WebUI.setText(findTestObject('Page_Login/Email Field'), 'admin@hadir.com')
 
-'Input Password'
 WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-'Klik login button'
-WebUI.click(findTestObject('Object Repository/Page_Login/Login Button'))
+WebUI.click(findTestObject('Page_Login/Login Button'))
 
-'Verify Header Page Dashboard "Dashboard Menu" Visible by user'
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_DashboardMenu/Header Dashboard'))
+WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management'))
 
-'Verify Header page Dashboard "Dashboard Menu"'
-WebUI.verifyElementText(findTestObject('Object Repository/Page_DashboardMenu/Header Dashboard'), 'Dashboard Menu')
+WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
+
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Tambahkan'))
+
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Nama'), 'Tower8')
+
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Latitude'), '-6.579845389001726')
+
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Longitude'), '106.81901261381575')
+
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Maksimal_Radius'), '15')
+
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Description'), 'Kantor Kuningan City')
+
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Tambah'))
+
+WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/div_Berhasil Tambah Location Point'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AbsenPoint/div_Berhasil Tambah Location Point'), 'Berhasil Tambah Location Point')
 
 WebUI.delay(2)
 

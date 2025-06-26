@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Maksimal Radius (Meter)_max_radius</name>
+   <name>Field_Latitude</name>
    <tag></tag>
-   <elementGuidId>bbb117f6-f36f-4c57-b8f0-dee25e2039f6</elementGuidId>
+   <elementGuidId>78fcdfeb-f200-4238-ad32-5a062ddfe75a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#max_radius</value>
+         <value>#latitude</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='max_radius']</value>
+         <value>//input[@id='latitude']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e3355874-f7d2-4214-8e47-409ccca85a57</webElementGuid>
+      <webElementGuid>998ace10-ca0f-4484-b23d-2e0b14271bce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,31 +31,31 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9e59a2d8-ca14-497f-84e5-fa5231ed9849</webElementGuid>
+      <webElementGuid>1993a3da-f22e-4917-b305-e478b8818a5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>max_radius</value>
-      <webElementGuid>46253259-b6c5-4eaf-8615-1c0398df18dd</webElementGuid>
+      <value>latitude</value>
+      <webElementGuid>93ef4433-4a57-4fe0-8c06-2eb6b3f5184a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>max_radius</value>
-      <webElementGuid>f79bdc93-c5b0-45d1-a0e8-fa6f47a88ad0</webElementGuid>
+      <value>latitude</value>
+      <webElementGuid>88f5020b-a609-4c80-ba12-45ca1a79afe3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>5b66cf19-2005-4857-8c85-dae65be185fd</webElementGuid>
+      <value>text</value>
+      <webElementGuid>9917e764-29c0-4fcd-bf78-3590d05150bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,46 +63,46 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng</value>
-      <webElementGuid>8e05428f-c454-40ca-8442-d65e18e12238</webElementGuid>
+      <webElementGuid>79008197-5fe7-427a-a9e0-6aa07ff77628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;max_radius&quot;)</value>
-      <webElementGuid>3a04ff12-4064-41dc-af98-2967c4ddaf70</webElementGuid>
+      <value>id(&quot;latitude&quot;)</value>
+      <webElementGuid>0826f4f6-2f3a-44bf-9721-9d794950a488</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='max_radius']</value>
-      <webElementGuid>da1e01d3-370c-4f77-960c-38f4f4167166</webElementGuid>
+      <value>//input[@id='latitude']</value>
+      <webElementGuid>47c5f588-36ab-45d1-a077-c225f59dcbae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='alert-dialog-slide-description']/div[4]/div/input</value>
-      <webElementGuid>b70d924f-42f5-4cd3-b415-64cf736011d9</webElementGuid>
+      <value>//div[@id='alert-dialog-slide-description']/div[2]/div/input</value>
+      <webElementGuid>54d95d07-851f-498e-b602-c6b49de0a48d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/input</value>
-      <webElementGuid>76e01d4a-c12f-482c-ac7a-d0ea165b20a5</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>fd2f8cf3-9d65-4084-9675-3888f6333ed1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'max_radius' and @name = 'max_radius' and @type = 'number']</value>
-      <webElementGuid>3a1ce403-f477-4182-8c6f-759096c8797a</webElementGuid>
+      <value>//input[@id = 'latitude' and @name = 'latitude' and @type = 'text']</value>
+      <webElementGuid>bb3b1bf7-8e89-45d8-8715-e176f148d83e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

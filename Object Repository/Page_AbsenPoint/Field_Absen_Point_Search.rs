@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Nama_name</name>
+   <name>Field_Absen_Point_Search</name>
    <tag></tag>
-   <elementGuidId>54c25e9b-f12c-4265-8e23-ab8e9b1fc843</elementGuidId>
+   <elementGuidId>3949e9fe-6322-4860-a213-73e25ce3875b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#name</value>
+         <value>#search</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']</value>
+         <value>//input[@id='search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a93b2ed5-c9ed-4abf-ae44-156c49bb65ab</webElementGuid>
+      <webElementGuid>678b290d-d8a2-4e12-96fa-8492cfbf848e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,86 +31,86 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8e7ca00d-0265-40f5-a285-aec28bd44a33</webElementGuid>
+      <webElementGuid>4adbe51f-8ef3-4d13-9638-7216acaa9652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>name</value>
-      <webElementGuid>0a22b921-ffcd-41fd-a995-b271433e8723</webElementGuid>
+      <value>search</value>
+      <webElementGuid>7df975f7-0eb5-4800-b255-dbadbde3e6ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>name</value>
-      <webElementGuid>57e65f2e-9dd4-4754-9a1b-c0578b35cf6f</webElementGuid>
+      <value>search</value>
+      <webElementGuid>8fa40096-4ee1-4629-a600-e0108b037bda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>cari berdasarkan nama</value>
+      <webElementGuid>23f47265-ed67-4bc6-9c97-40361a47c809</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>cab0826f-5ed6-4b67-abdb-872ba81ede9a</webElementGuid>
+      <value>search</value>
+      <webElementGuid>2097318a-af4f-446d-a540-c7b93d09308a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng</value>
-      <webElementGuid>ae52923b-b023-4299-a79b-e6fbce4c7dc3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Tower8</value>
-      <webElementGuid>da3986a1-9ccf-4a65-a5fd-073ad7ccfc2f</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputTypeSearch MuiInputBase-inputSizeSmall css-1sm1gol</value>
+      <webElementGuid>000f28b2-0037-4b43-b0f4-3451a3925b5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;name&quot;)</value>
-      <webElementGuid>a0fbd7fd-2e6d-41c1-8558-d5ace5200f84</webElementGuid>
+      <value>id(&quot;search&quot;)</value>
+      <webElementGuid>76f1259d-e6f3-45eb-8532-b67c0765894b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='name']</value>
-      <webElementGuid>043ab639-b461-4f46-a996-983632545049</webElementGuid>
+      <value>//input[@id='search']</value>
+      <webElementGuid>6760bf14-f024-4c51-b921-967da9fec9b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='alert-dialog-slide-description']/div/div/input</value>
-      <webElementGuid>4849bcc4-cdf5-407c-bd8b-cfc9f655b2c1</webElementGuid>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div/form/div/div/div/input</value>
+      <webElementGuid>6e7e5f56-8af4-4df9-9224-c847db9fb784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/div/div/input</value>
-      <webElementGuid>557dea47-a248-4e07-bd4d-43093f870f38</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>ba69b858-7566-476c-9642-f4b1f85ff5a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'name' and @name = 'name' and @type = 'text']</value>
-      <webElementGuid>f6165ffd-8a3a-46af-ba0e-c0ff529a7579</webElementGuid>
+      <value>//input[@id = 'search' and @name = 'search' and @placeholder = 'cari berdasarkan nama' and @type = 'search']</value>
+      <webElementGuid>884c2083-9405-4a54-8bc1-08f5d444b4f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
