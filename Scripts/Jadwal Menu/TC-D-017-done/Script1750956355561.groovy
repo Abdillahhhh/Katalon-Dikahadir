@@ -19,24 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'klik ke menu Management, agar terbuka menunya'
+'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
-'klik untuk buka keseluruhan management day off'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
+'buuka menu jadwal'
+WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
 
-WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollBy({top: 200, behavior: "smooth"})', null)
 
-'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
+WebUI.delay(1 // beri delay agar efek scroll smooth terlihat
+    )
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+WebUI.click(findTestObject('Jadwal/Search-Rows/Button_LastPage'))
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+WebUI.delay(1)
+
+// validasi munculnya row 1-10 of 86 sebagai verifikasi keberhasilan kembali ke tampilan utama
+String rowInfoLast = WebUI.getText(findTestObject('Object Repository/Jadwal/Search-Rows/rows-_full'))
+
+WebUI.verifyMatch(rowInfoLast, '81-87 of 87', false)
+
+WebUI.delay(1)
+
+WebUI.executeJavaScript('window.scrollBy({top: 200, behavior: "smooth"})', null)
+
+WebUI.delay(1 // beri delay agar efek scroll smooth terlihat
+    )
+
+WebUI.click(findTestObject('Jadwal/Search-Rows/Button_FirstPage'))
+
+WebUI.delay(1)
+
+// validasi munculnya row 1-10 of 86 sebagai verifikasi keberhasilan kembali ke tampilan utama
+String rowInfoFirst = WebUI.getText(findTestObject('Object Repository/Jadwal/Search-Rows/rows-_full'))
+
+WebUI.verifyMatch(rowInfoFirst, '1-10 of 87', false)
+
+WebUI.executeJavaScript('window.scrollBy({top: 200, behavior: "smooth"})', null)
 
 WebUI.delay(2)
-
-'Tutup browser setelah menemukan validasi headernya'
-WebUI.closeBrowser()
 

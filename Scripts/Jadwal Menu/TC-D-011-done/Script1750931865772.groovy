@@ -19,24 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'klik ke menu Management, agar terbuka menunya'
+'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
-'klik untuk buka keseluruhan management day off'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
+'buuka menu jadwal'
+WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
 
-WebUI.delay(3)
+'klik burger dot disebelah tanggall efektif'
+WebUI.click(findTestObject('Jadwal/Delete-Update-View/Page_View/View_option'))
 
-'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
+'kllik delete jadwall\r\n'
+WebUI.click(findTestObject('Jadwal/Delete-Update-View/Page_View/Delete_option'))
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+'dan klik Ya untuk delete\r\n'
+WebUI.click(findTestObject('Jadwal/Delete-Update-View/Page_View/Delete_Ya'))
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+'Validasi ulang halaman jadwall setelah klik simpan'
+WebUI.verifyElementPresent(findTestObject('Jadwal/Tipe_Jadwal Option/Page_HADIR/th_NAMA'), 0)
 
-WebUI.delay(2)
+WebUI.comment('✅ Vallidasi ulang halaman Jadwal.')
 
-'Tutup browser setelah menemukan validasi headernya'
+WebUI.delay(1)
+
 WebUI.closeBrowser()
 

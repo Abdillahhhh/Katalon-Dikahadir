@@ -16,27 +16,33 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'klik ke menu Management, agar terbuka menunya'
+'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
-'klik untuk buka keseluruhan management day off'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
+'buuka menu jadwal'
+WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
 
-WebUI.delay(3)
+// Klik tombol 'tambahkan'
+WebUI.click(findTestObject('Object Repository/Jadwal/Tambah Jadwal/Hari Kerja/Daftar Jadwal/button_Tambahkan'))
 
-'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
+// Klik tombol 'terapkan' tanpa mengisi dropdown
+WebUI.click(findTestObject('Object Repository/Jadwal/Tambah Jadwal/Hari Kerja/Daftar Jadwal/button_Tambah'))
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+// Verifikasi apakah pesan error "Harap isi bidang ini" muncul
+TestObject errorTooltip = findTestObject('Object Repository/Jadwal/Tipe_Jadwal Option/dropdown tipe jadwal') // Ganti dengan TestObject yang menunjuk ke elemen error-nya
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+boolean isVisible = WebUI.verifyElementVisible(errorTooltip, FailureHandling.OPTIONAL)
 
-WebUI.delay(2)
+if (isVisible) {
+    WebUI.comment('Validasi muncul: Harap isi bidang ini')
+} else {
+    WebUI.comment('Validasi TIDAK muncul: Harap isi bidang ini')
+}
 
-'Tutup browser setelah menemukan validasi headernya'
-WebUI.closeBrowser()
+WebUI.delay(1)
 

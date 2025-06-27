@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'klik ke menu Management, agar terbuka menunya'
+'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
-'klik untuk buka keseluruhan management day off'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
+'buuka menu jadwal'
+WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
 
-WebUI.delay(3)
+WebUI.executeJavaScript('window.scrollBy({top: 500, behavior: "smooth"})', null)
 
-'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
+WebUI.delay(1 // beri delay agar efek scroll smooth terlihat
+    )
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+WebUI.click(findTestObject('Jadwal/Search-Rows/Button_Next'))
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+WebUI.delay(1)
 
-WebUI.delay(2)
+// validasi munculnya row 1-10 of 86 sebagai verifikasi keberhasilan kembali ke tampilan utama
+String rowInfo = WebUI.getText(findTestObject('Object Repository/Jadwal/Search-Rows/rows-_full'))
 
-'Tutup browser setelah menemukan validasi headernya'
-WebUI.closeBrowser()
+WebUI.verifyMatch(rowInfo, '11-20 of 87', false)
+
+WebUI.delay(1)
 

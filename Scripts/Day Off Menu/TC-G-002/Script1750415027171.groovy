@@ -28,10 +28,10 @@ WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
 WebUI.delay(3)
 
 'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/Page_HADIR/Dayoff_menu'), 0)
+WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
 
 'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/LibNas_page/h3_Liburan Nasional'), 0)
+WebUI.verifyElementPresent(findTestObject('Day Off/Libur Nasional/h3_Liburan Nasional'), 0)
 
 WebUI.comment('✅ Header \'Libur Nasional\' ditemukan.')
 

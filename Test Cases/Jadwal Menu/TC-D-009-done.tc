@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-G-001</name>
+   <name>TC-D-009-done</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c9d69c30-250e-40c4-97c8-d4d152c0db01</testCaseGuid>
+   <testCaseGuid>eb65b980-7fe9-4583-b3e5-7e0d66c815b6</testCaseGuid>
 </TestCaseEntity>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_tanggal</name>
+   <name>input_NamaJadwal</name>
    <tag></tag>
-   <elementGuidId>0f81b623-aa7d-467b-9453-3b40b2ed70f9</elementGuidId>
+   <elementGuidId>32369562-73f4-4544-896f-c1e79bbcbb46</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mui-50']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-50']</value>
+         <value>//input[@id='nameJadwal']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mui-50</value>
+         <value>#nameJadwal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ec93a28b-bcdd-4341-bd90-2b60d6db084e</webElementGuid>
+      <webElementGuid>a7aa2159-124b-40a0-a2eb-bbcd21128eb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,86 +31,78 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bc248d60-9ef3-4854-bb37-f199172b723b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>mm/dd/yyyy</value>
-      <webElementGuid>b69d7c24-a481-4d88-b122-6d0d212e5d0b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>tel</value>
-      <webElementGuid>c6f1612b-0608-4b1c-9f03-107846f04214</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2</value>
-      <webElementGuid>6384f53e-f27b-425d-ad68-f53a1a300599</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>06/24/2025</value>
-      <webElementGuid>ca876240-0062-4b28-971b-b3b529e889e2</webElementGuid>
+      <webElementGuid>f9442b66-f337-4653-93df-42fbef7b1d4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mui-50</value>
-      <webElementGuid>8ecb47c6-827d-4131-bcf8-3e0ff798e646</webElementGuid>
+      <value>nameJadwal</value>
+      <webElementGuid>b2d972f7-6afa-4fee-9ec5-a74bf532d0b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>nameJadwal</value>
+      <webElementGuid>61abf12b-d843-46fc-a1ef-12451aa516ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>dfbacfa6-b3fb-4ce8-9616-2c8eb1e58471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng</value>
+      <webElementGuid>aa4cd886-a25f-4bfa-9d30-629538b8c2fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mui-50&quot;)</value>
-      <webElementGuid>7cfaaf99-0326-4b6a-b21a-2b4e1e9b4a51</webElementGuid>
+      <value>id(&quot;nameJadwal&quot;)</value>
+      <webElementGuid>efa62ca4-f01c-4ec4-9916-5588b3b0af7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mui-50']</value>
-      <webElementGuid>b57422ff-f7f2-4ca8-a637-d32ef909e721</webElementGuid>
+      <value>//input[@id='nameJadwal']</value>
+      <webElementGuid>2500cf25-f334-42f8-9869-3bf29e89a59a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='alert-dialog-slide-description']/div/div[2]/div/div/div/input</value>
-      <webElementGuid>356d1e5b-a73b-40c8-9a69-a25286076891</webElementGuid>
+      <value>//div[@id='alert-dialog-slide-description']/div[2]/div/input</value>
+      <webElementGuid>e6a93b14-df1d-4ced-8698-dd6af828d3c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>7e375ef1-b2b5-4f06-9551-1deb8087a36f</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>168ccaea-699e-44ff-928c-8a01669dee14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-50']</value>
-      <webElementGuid>57bd93ad-ce45-4cd8-b9df-9aa134395156</webElementGuid>
+      <value>//input[@id = 'nameJadwal' and @name = 'nameJadwal' and @type = 'text']</value>
+      <webElementGuid>258f19ba-77a9-43d4-b441-636ae191a94f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

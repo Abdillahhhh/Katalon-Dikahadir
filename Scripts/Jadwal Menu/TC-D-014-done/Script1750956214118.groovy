@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'klik ke menu Management, agar terbuka menunya'
+'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
-'klik untuk buka keseluruhan management day off'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
+'buuka menu jadwal'
+WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Jadwal/Search-Rows/field_Search'), '2testing1')
 
-'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
+TestObject inputSearch = findTestObject('Jadwal/Search-Rows/field_Search')
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+// Klik titik X di sisi kanan input (misal: 120px ke kanan dari kiri input)
+WebUI.clickOffset(inputSearch, 100, 5)
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+WebUI.delay(1)
 
-WebUI.delay(2)
+// Ambil isi kolom pencarian setelah diklik X
+String currentValue = WebUI.getAttribute(inputSearch, 'value')
 
-'Tutup browser setelah menemukan validasi headernya'
-WebUI.closeBrowser()
-
+// Validasi bahwa kolom pencarian sudah kosong (tidak ada teks lagi)
+WebUI.verifyMatch(currentValue, '', false)
+// Jika currentValue == '', maka validasi berhasil (field memang kosong)
+// Jika tidak kosong, maka test akan FAILED

@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_tanggal</name>
+   <name>input_Tanggal Efektif</name>
    <tag></tag>
-   <elementGuidId>0f81b623-aa7d-467b-9453-3b40b2ed70f9</elementGuidId>
+   <elementGuidId>8b3d55e7-3d0e-4c2c-b23a-ab002c5edf83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mui-50']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-50']</value>
+         <value>(//input[@id='mui-51'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#mui-50</value>
+         <value>#mui-34</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ec93a28b-bcdd-4341-bd90-2b60d6db084e</webElementGuid>
+      <webElementGuid>ddde87b1-e4c4-4d1c-9817-24c07aed0dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +31,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>bc248d60-9ef3-4854-bb37-f199172b723b</webElementGuid>
+      <webElementGuid>ef98be5d-6cc0-400c-8427-5cd452cc45d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +39,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>mm/dd/yyyy</value>
-      <webElementGuid>b69d7c24-a481-4d88-b122-6d0d212e5d0b</webElementGuid>
+      <webElementGuid>84cfe7de-49a8-4016-8c84-8d5226bbf9b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>c6f1612b-0608-4b1c-9f03-107846f04214</webElementGuid>
+      <webElementGuid>25b52fe8-67e1-4f15-abf8-cf9184667a18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,39 +55,39 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2</value>
-      <webElementGuid>6384f53e-f27b-425d-ad68-f53a1a300599</webElementGuid>
+      <webElementGuid>ca144db0-51ee-4dee-b3b0-f70a574feeac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>06/24/2025</value>
-      <webElementGuid>ca876240-0062-4b28-971b-b3b529e889e2</webElementGuid>
+      <value>06/26/2025</value>
+      <webElementGuid>3baa9707-e90a-404c-ab62-a8d3f9b767ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mui-50</value>
-      <webElementGuid>8ecb47c6-827d-4131-bcf8-3e0ff798e646</webElementGuid>
+      <value>mui-34</value>
+      <webElementGuid>cc14bc3f-376c-4d8f-a925-4acf865b975c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mui-50&quot;)</value>
-      <webElementGuid>7cfaaf99-0326-4b6a-b21a-2b4e1e9b4a51</webElementGuid>
+      <value>id(&quot;mui-34&quot;)</value>
+      <webElementGuid>77dc2a86-c35c-4418-94dc-a84cba5ca25c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mui-50']</value>
-      <webElementGuid>b57422ff-f7f2-4ca8-a637-d32ef909e721</webElementGuid>
+      <value>//input[@id='mui-34']</value>
+      <webElementGuid>3597ace7-f754-4550-b79e-7d2b5b5a37f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='alert-dialog-slide-description']/div/div[2]/div/div/div/input</value>
-      <webElementGuid>356d1e5b-a73b-40c8-9a69-a25286076891</webElementGuid>
+      <webElementGuid>39742654-3c1b-4f68-b066-7acfcb2551c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,14 +103,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/input</value>
-      <webElementGuid>7e375ef1-b2b5-4f06-9551-1deb8087a36f</webElementGuid>
+      <webElementGuid>912dced1-f3dc-4402-b14b-694d082b5ef1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-50']</value>
-      <webElementGuid>57bd93ad-ce45-4cd8-b9df-9aa134395156</webElementGuid>
+      <value>//input[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-34']</value>
+      <webElementGuid>b6e6868f-08ac-4785-a541-f7ef43dc7efd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

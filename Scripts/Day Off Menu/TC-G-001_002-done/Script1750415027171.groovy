@@ -30,10 +30,25 @@ WebUI.delay(3)
 'verifikasi header Cuti Bersama'
 WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+'validasi table tanggal cuti bersama\r\n'
+WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/th_Tanggal'), 0)
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+WebUI.comment('✅ Table \'Tanggal Cuti Bersama\' ditemukan.')
+
+'validasi table deskripsi cuti bersama\r\n\r\n'
+WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h5_Deskripsi'), 0)
+
+WebUI.comment('✅ Table \'Deskripsi Cuti Bersama\' ditemukan.')
+
+'validasi table tanggal libur nasional'
+WebUI.verifyElementPresent(findTestObject('Day Off/Libur Nasional/th_Tanggal'), 0)
+
+WebUI.comment('✅ Table \'Tanggal Libur Nasional\' ditemukan.')
+
+'validasi table deskripsi libur nasional\r\n\r\n\r\n\r\n'
+WebUI.verifyElementPresent(findTestObject('Day Off/Libur Nasional/h5_Deskripsi'), 0)
+
+WebUI.comment('✅ Table \'Deskripsi Libur Nasional\' ditemukan.')
 
 WebUI.delay(2)
 

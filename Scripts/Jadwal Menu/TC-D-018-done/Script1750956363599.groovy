@@ -16,27 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'klik ke menu Management, agar terbuka menunya'
+'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
-'klik untuk buka keseluruhan management day off'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
+'buuka menu jadwal'
+WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-'verifikasi header Cuti Bersama'
-WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
+WebUI.executeJavaScript('window.scrollBy({top: 400, behavior: "smooth"})', null)
 
-'validasi header cuti bersama\r\n'
-WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
+WebUI.delay(1)
 
-WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
+WebUI.click(findTestObject('Jadwal/Search-Rows/field_10Row'))
 
-WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('Jadwal/Search-Rows/Option_25'), 5)
+WebUI.click(findTestObject('Jadwal/Search-Rows/Option_25'))
 
-'Tutup browser setelah menemukan validasi headernya'
-WebUI.closeBrowser()
+WebUI.delay(2)  // tunggu datanya berubah
+
+List<WebElement> rows = WebUI.findWebElements(findTestObject('Object Repository/Jadwal/Search-Rows/field_AllRows'), 5)
+
+WebUI.comment("Jumlah baris ditemukan: " + rows.size())
+WebUI.verifyEqual(rows.size(), 25)
 
