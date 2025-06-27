@@ -13,6 +13,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -31,17 +32,15 @@ WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management
 
 WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 'Tower18')
+WebUI.click(findTestObject('Page_AbsenPoint/Dropdown_RowsPerPage'))
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Search'))
+WebUI.click(findTestObject('Page_AbsenPoint/Opsi_RowsPerPage_5'))
 
-WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/h6_Tower18'))
+List<WebElement> elements = WebUI.findWebElements(findTestObject('Page_AbsenPoint/List_Data_Absen'), 10)
 
-WebUI.verifyElementText(findTestObject('Page_AbsenPoint/h6_Tower18'), 'Tower18')
+WebUI.verifyEqual(elements.size(), 5)
 
 WebUI.delay(2)
-
-WebUI.click(findTestObject(null))
 
 WebUI.closeBrowser()
 

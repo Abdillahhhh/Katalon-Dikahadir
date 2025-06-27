@@ -32,9 +32,13 @@ WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management
 
 WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
 
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 'Tower22')
+
+WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Search'))
+
 List<WebElement> elements = WebUI.findWebElements(findTestObject('Page_AbsenPoint/List_Data_Absen'), 10)
 
-WebUI.verifyEqual(elements.size(), 10)
+WebUI.verifyEqual(elements.size(), 0)
 
 WebUI.delay(2)
 
