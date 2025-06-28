@@ -21,43 +21,44 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/input_Email_email'), 'admin@hadir.com')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_HADIR/input_Email_email'), 'admin@hadir.com')
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/form_EmailPasswordMasuk'))
+WebUI.setEncryptedText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_HADIR/button_Masuk'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_HADIR/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/line'))
+WebUI.click(findTestObject('Sidebar/p_Management'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/p_Management'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_HADIR/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/svg_Aksi_feather feather-more-vertical'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/button_Aksi_MuiButtonBase-root MuiIconButto_5ee4e8'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/li_Edit'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/li_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Nama Aturan Cuti_name'), 'Aturan Cuti Dummy Diperbarui Total')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/input_Nama Aturan Cuti_name'), 'Aturan Dummy Edit Total')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Eligible Pengaturan Cuti (Bulan)_elig_9860f4'), 
-    '0')
-
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Eligible Pengaturan Cuti (Bulan)_elig_9860f4'))
-
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Eligible Pengaturan Cuti (Bulan)_elig_9860f4'), 
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/input_Eligible Pengaturan Cuti (Bulan)_elig_9860f4'), 
     '12')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Tanggal Batas Sisa Cuti_mui-8'), '12')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/input_Tanggal Batas Sisa Cuti_mui-9'), 
+    '3')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Bulan Batas Sisa Cuti_mui-9'), '3')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/input_Bulan Batas Sisa Cuti_mui-10'), 
+    '3')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Maksimal Sisa Cuti_max_carry_forward'), 
-    '6')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/input_Maksimal Sisa Cuti_max_carry_forward'), 
+    '3')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/input_Jumlah Bulan Kerja Sisa Cuti_carry_fo_08b2bb'), 
-    '12')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/input_Jumlah Bulan Kerja Sisa Cuti_carry_fo_08b2bb'), 
+    '3')
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-011/Page_Aturan Cuti/button_Simpan'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/button_Simpan'))
+
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-011/Page_Aturan Cuti/div_Sukses Mengubah Aturan Cuti'))
+
+WebUI.closeBrowser()
 

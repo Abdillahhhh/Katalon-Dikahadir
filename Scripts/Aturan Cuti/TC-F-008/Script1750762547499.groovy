@@ -21,25 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/input_Email_email'), 'admin@hadir.com')
+WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/button_Password_MuiButtonBase-root MuiIconB_2ba1db'))
+WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/input_Password_password'), 'MagangSQA_JC@123')
+WebUI.click(findTestObject('Login/button_Masuk'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Login/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/svg_A_feather feather-menu'))
+WebUI.click(findTestObject('Sidebar/p_Management'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/p_Management'))
+WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_Aturan Cuti/div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Delete/Detail_option'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_Aturan Cuti/circle'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Delete/option_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_Aturan Cuti/li_Delete'))
-
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-008/Page_Aturan Cuti/button_Hapus'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Delete/button_Hapus'))
 

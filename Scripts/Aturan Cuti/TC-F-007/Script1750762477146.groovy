@@ -21,21 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
-WebUI.sendKeys(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_HADIR/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_HADIR/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
+WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_HADIR/p_Management'))
+WebUI.click(findTestObject('Login/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Sidebar/p_Management'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_Aturan Cuti/div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3'))
+WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_Aturan Cuti/svg_Aksi_feather feather-more-vertical'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_Aturan Cuti/li_Delete'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Delete/Detail_option'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-007/Page_Aturan Cuti/button_Batal'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Delete/option_Delete'))
+
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Delete/button_Batal'))
+
+WebUI.closeBrowser()
 

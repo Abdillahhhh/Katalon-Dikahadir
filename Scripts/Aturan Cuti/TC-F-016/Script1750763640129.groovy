@@ -21,19 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_HADIR/input_Email_email'), 'admin@hadir.com')
+WebUI.setText(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_HADIR/input_Email_email'), 'admin@hadir.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.setEncryptedText(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.sendKeys(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_HADIR/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_HADIR/button_Masuk'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_HADIR/line'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_HADIR/svg_A_feather feather-menu'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_HADIR/div_Management'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_HADIR/p_Management'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_HADIR/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_Aturan Cuti/div_Delete_MuiBackdrop-root MuiBackdrop-inv_a34963'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_Aturan Cuti/div_Delete_MuiBackdrop-root MuiBackdrop-inv_a34963'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-016/Page_Aturan Cuti/li_25'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/TC-F-016/Page_Aturan Cuti/li_25'))
+
+WebUI.closeBrowser()
 

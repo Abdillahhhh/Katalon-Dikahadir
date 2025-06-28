@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_HADIR/input_Email_email'), 'admin@hadir.com')
+WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.sendKeys(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_HADIR/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_HADIR/line'))
+WebUI.click(findTestObject('Sidebar/line'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_HADIR/div_Management'))
+WebUI.click(findTestObject('Sidebar/div_Management'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_Aturan Cuti/div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_Aturan Cuti/path'))
+WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/path'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-015/Page_Aturan Cuti/svg_Aksi_MuiSvgIcon-root MuiSvgIcon-fontSiz_f98db3'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/svg_Aksi_MuiSvgIcon-root MuiSvgIcon-fontSiz_f98db3'))
 

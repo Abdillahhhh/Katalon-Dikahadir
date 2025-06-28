@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_HADIR/input_Email_email'), 'admin@hadir.com')
+WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_HADIR/button_Masuk'))
+WebUI.click(findTestObject('Login/button_Masuk'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_HADIR/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
+WebUI.click(findTestObject('Login/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_HADIR/p_Management'))
+WebUI.click(findTestObject('Sidebar/p_Management'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_Aturan Cuti/div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.setText(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_Aturan Cuti/input_Admin Hadir_search'), 'test')
+WebUI.setText(findTestObject('Default-Search-Clear-Reset/input_Admin Hadir_search'), 'test')
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_Aturan Cuti/button_Search'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Search'))
 
-WebUI.click(findTestObject('Object Repository/Management_AturanCuti/TC-F-003/Page_Aturan Cuti/button_Reset'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Reset'))
 
