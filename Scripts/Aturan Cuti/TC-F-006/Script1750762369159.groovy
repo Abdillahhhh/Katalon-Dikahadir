@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ
 
 WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu (1)'))
+WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
 
 WebUI.click(findTestObject('Sidebar/p_Management'))
 

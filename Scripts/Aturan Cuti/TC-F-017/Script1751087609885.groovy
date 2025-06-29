@@ -21,32 +21,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.setText(findTestObject('Page_HADIR/input_Email_email'), 'admin@hadir.com')
+WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
-WebUI.setEncryptedText(findTestObject('Page_HADIR/input_Password_password'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.click(findTestObject('Page_HADIR/button_Masuk'))
+WebUI.click(findTestObject('Login/button_Masuk'))
 
-WebUI.click(findTestObject('Page_HADIR/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
+WebUI.click(findTestObject('Login/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
 
-WebUI.click(findTestObject('Page_HADIR/p_Management'))
+WebUI.click(findTestObject('Sidebar/p_Management'))
 
-WebUI.click(findTestObject('Page_HADIR/p_Aturan Cuti'))
+WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Page_Aturan Cuti/div_Logout_MuiBackdrop-root MuiModal-backdr_bf49d3'))
+WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.click(findTestObject('Page_Aturan Cuti/button_Aksi_MuiButtonBase-root MuiIconButto_5ee4e8'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Option'))
 
-WebUI.click(findTestObject('Page_Aturan Cuti/li_View'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/li_View'))
 
-WebUI.click(findTestObject('Object Repository/AturanCuti/Page_Detil Aturan Cuti/button_Tambahkan Detail Aturan Cuti'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/button_Tambahkan Detail Aturan Cuti'))
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Page_Detil Aturan Cuti/input_Minimal Bulan Bekerja_total_month_greater'), 
-    '12')
+WebUI.setText(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Minimal Bulan Bekerja_total_month_greater'), '12')
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Page_Detil Aturan Cuti/input_Total Cuti_total_leave'), '14')
+WebUI.setText(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Total Cuti_total_leave'), '14')
 
-WebUI.click(findTestObject('Object Repository/AturanCuti/Page_Detil Aturan Cuti/button_Tambahkan'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/button_Tambahkan'))
 
 WebUI.closeBrowser()
 

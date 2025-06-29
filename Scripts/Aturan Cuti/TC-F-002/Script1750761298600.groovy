@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Sidebar/p_Aturan Cuti'))
 
 WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/dashboard'))
 
-WebUI.setText(findTestObject('Object Repository/Default-Search-Clear-Reset/input_Admin Hadir_search'), 'Dummy')
+WebUI.setText(findTestObject('Object Repository/Default-Search-Clear-Reset/Cari_field'), 'Dummy')
 
 WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Reset'))
 

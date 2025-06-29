@@ -35,28 +35,13 @@ WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
 WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/svg_Aksi_feather feather-more-vertical'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feather feather-more-vertical_sebelum view'))
 
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/li_View'))
 
-WebUI.setText(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/input_Nama Aturan Cuti_name'), 'Test')
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/div_Delete_MuiBackdrop-root MuiBackdrop-inv_a34963'))
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Eligible Pengaturan Cuti (Bulan)_elig_9860f4'), 
-    '0')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Maksimal Sisa Cuti_max_carry_forward'), 
-    '0')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Jumlah Bulan Kerja Sisa Cuti_carry_fo_08b2bb'), 
-    '0')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Tanggal Batas Sisa Cuti_mui-9'), 
-    '1')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Bulan Batas Sisa Cuti_mui-10'), 
-    '1')
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Simpan'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_View/li_25'))
 
 WebUI.closeBrowser()
 

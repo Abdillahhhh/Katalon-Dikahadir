@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ
 
 WebUI.click(findTestObject('Login/button_Masuk'))
 
-WebUI.click(findTestObject('Sidebar/option_Sidebar'))
+WebUI.click(findTestObject('Sidebar/option_Sidebar(menu)'))
 
 WebUI.click(findTestObject('Sidebar/p_Management'))
 

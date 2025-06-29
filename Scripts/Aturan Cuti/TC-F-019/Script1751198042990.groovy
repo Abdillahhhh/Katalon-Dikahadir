@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
 WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.click(findTestObject('Login/button_Masuk'))
+WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
 
@@ -33,30 +33,9 @@ WebUI.click(findTestObject('Sidebar/p_Management'))
 
 WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feather feather-more-vertical_sebelum view'))
 
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/svg_Aksi_feather feather-more-vertical'))
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'))
-
-WebUI.setText(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/input_Nama Aturan Cuti_name'), 'Test')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Eligible Pengaturan Cuti (Bulan)_elig_9860f4'), 
-    '0')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Maksimal Sisa Cuti_max_carry_forward'), 
-    '0')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Jumlah Bulan Kerja Sisa Cuti_carry_fo_08b2bb'), 
-    '0')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Tanggal Batas Sisa Cuti_mui-9'), 
-    '1')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Bulan Batas Sisa Cuti_mui-10'), 
-    '1')
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Simpan'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/li_View'))
 
 WebUI.closeBrowser()
 

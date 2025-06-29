@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
 WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
 
-WebUI.setText(findTestObject('Default-Search-Clear-Reset/input_Admin Hadir_search'), 'test')
+WebUI.setText(findTestObject('Default-Search-Clear-Reset/Cari_field'), 'test')
 
 WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Search'))
 

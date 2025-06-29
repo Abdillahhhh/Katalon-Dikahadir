@@ -41,13 +41,9 @@ WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'))
 
 WebUI.click(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'))
 
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/div_Sunting Aturan CutiNama Aturan CutiElig_ffc2b7'))
-
 WebUI.setText(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), 'Aturan Dummy Diperbarui')
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Simpan'))
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/div_Sukses Mengubah Aturan Cuti'))
 
 WebUI.closeBrowser()
 
