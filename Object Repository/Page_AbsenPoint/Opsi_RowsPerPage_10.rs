@@ -6,12 +6,11 @@
    <elementGuidId>21b758ed-6fcb-4908-90a7-54ae659a9805</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[normalize-space()='10']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='mui-26']/li[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>eb50a115-7d58-4dd1-808f-fcd8517fb532</webElementGuid>
+      <webElementGuid>d33538b9-b4f1-45bd-8567-3d81e0208e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters MuiTablePagination-menuItem css-74h9kj</value>
-      <webElementGuid>27a61d40-5c60-4c68-9a6e-f856cd575f47</webElementGuid>
+      <webElementGuid>297b81fb-986a-433d-99a8-9bcf12306cbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>2d7c4143-76ba-4149-a4d8-4a70239643c9</webElementGuid>
+      <webElementGuid>4c00bfeb-d9b5-41dc-abeb-2f02b9ea3271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>84bb0a5d-5351-4e55-b65a-4dbc93099c54</webElementGuid>
+      <webElementGuid>12d78de3-2a6a-419d-9f73-241c5e37bd27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9cf01317-6838-42f0-be90-960694e63be4</webElementGuid>
+      <webElementGuid>9065cb86-ae34-4c0f-acb6-1c5653c35d52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>data-value</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>1c2ceebe-1f99-4f5a-8d1b-4b3dbea10afe</webElementGuid>
+      <webElementGuid>9b67acc2-05da-48cd-aa23-9a9aa9545584</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>7a15866c-b164-44ed-a6af-a4c791eadd28</webElementGuid>
+      <webElementGuid>5be035b2-968d-4d00-9457-3d447d88df91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-26&quot;)/li[@class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters MuiTablePagination-menuItem css-74h9kj&quot;]</value>
-      <webElementGuid>4935d3a9-c67f-44e7-80ec-e42892a40ce5</webElementGuid>
+      <webElementGuid>39a127e3-b803-4752-aaef-e8659fa00b10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-26']/li[2]</value>
-      <webElementGuid>85880811-a957-4b84-8940-4aa5b6b3c644</webElementGuid>
+      <webElementGuid>e986548d-8e0c-40f3-b4c2-06671e4477bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[5]/following::li[2]</value>
-      <webElementGuid>fc0a720f-f6dd-4414-a5c8-ab225271906a</webElementGuid>
+      <webElementGuid>27f73bea-7311-437a-9940-f084a85b7b2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[5]/following::li[3]</value>
-      <webElementGuid>eb5fdc66-1660-43e4-b7d8-d8b1742d3b5d</webElementGuid>
+      <webElementGuid>7632aaff-6ed4-4ecd-92b1-4b91ee3e130b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='10']/parent::*</value>
-      <webElementGuid>955b24ed-fee1-4d9a-afd6-65f5e9119acb</webElementGuid>
+      <webElementGuid>850f4e35-c2ba-46ac-9138-c43c871c3072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[3]/ul/li[2]</value>
-      <webElementGuid>d4cc9e01-8794-4d5d-8da1-1f95f658faf4</webElementGuid>
+      <webElementGuid>8cae34cc-72ca-425f-aac1-7af65616674e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = '10' or . = '10')]</value>
-      <webElementGuid>c2d5bf80-0937-42da-9405-909e4bcd6c72</webElementGuid>
+      <webElementGuid>9bfa5ac3-9976-45cd-ade0-58719b88de70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-44']/li[2]</value>
-      <webElementGuid>6448e8f4-6470-4689-9ece-2baa69f3a0ec</webElementGuid>
+      <webElementGuid>d8cb8743-27db-42eb-9317-63672a6623fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[10]/following::li[2]</value>
-      <webElementGuid>0bec76ad-a6f0-4cc1-8de8-e569d0795630</webElementGuid>
+      <webElementGuid>185c40c5-e378-44a7-8867-b9ca1ad305bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[10]/following::li[3]</value>
-      <webElementGuid>3ccb737f-cb00-4607-a5d6-7b0f6738fc17</webElementGuid>
+      <webElementGuid>7ecbbfed-ecfd-453e-aaac-94df2ffb177e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +158,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[13]/div[3]/ul/li[2]</value>
-      <webElementGuid>c957edc4-e415-4744-a1a8-89fc4be84934</webElementGuid>
+      <webElementGuid>7a9555ac-b58f-4193-8f45-beccc44928f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

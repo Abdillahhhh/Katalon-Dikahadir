@@ -19,13 +19,36 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Icon_Lainnya'))
+WebUI.executeJavaScript('window.scrollBy({top: 500, behavior: "smooth"})', null)
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Edit'))
+WebUI.delay(1 // beri delay agar efek scroll smooth terlihat
+    )
 
-WebUI.click(findTestObject('Page_AbsenPoint/Button_Batal_Edit'))
+WebUI.click(findTestObject('Page_AbsenPoint/button_next'))
 
-WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/button_Search'))
+String rowInfo = WebUI.getText(findTestObject('Page_AbsenPoint/p_11-20 of 220'))
 
-WebUI.delay(2)
+WebUI.verifyMatch(getPartBeforeOf(rowInfo), '11-20', false)
+
+//WebUI.click(findTestObject('Page_AbsenPoint/button_Previous'))
+//
+//rowInfo = WebUI.getText(findTestObject('Page_AbsenPoint/p_1-10 of 220'))
+//
+//WebUI.verifyMatch(getPartBeforeOf(rowInfo), '1-10', false)
+
+String getPartBeforeOf(String originalText) {
+    if (originalText == null) {
+    }
+    
+    String lowerCaseText = originalText.toLowerCase()
+
+    int indexOfOf = lowerCaseText.indexOf(' of ')
+
+    if (indexOfOf != -1) {
+        return originalText.substring(0, indexOfOf).trim()
+    } else {
+        return originalText
+    }
+}
+
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-A-007</name>
+   <name>TC-Login</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8dfb3ef5-e2e3-47bc-a081-86d55ac7ace8</testCaseGuid>
+   <testCaseGuid>c78797d7-f003-48de-8743-a5249f38157e</testCaseGuid>
 </TestCaseEntity>

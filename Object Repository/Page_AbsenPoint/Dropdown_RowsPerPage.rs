@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mui-27']</value>
+         <value>//div[@role='combobox']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>656e911d-a6e8-4e9a-bf20-0020dd88b70a</webElementGuid>
+      <webElementGuid>4a67665e-32c7-4074-8caf-e02739044890</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>2ab7cea5-d439-41c1-a029-ac4e6a0644da</webElementGuid>
+      <webElementGuid>169dcd84-0432-467f-9b7b-6c9b1fc937fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>d052568b-252b-4a36-a7b3-4f9cb63311bd</webElementGuid>
+      <webElementGuid>8f0aec45-25c7-4949-9983-1c4eb72f5c99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6a31f897-af11-4d38-980b-9d01e1e203fc</webElementGuid>
+      <webElementGuid>746bf149-82f6-4c80-b5e6-b96779fff4a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>listbox</value>
-      <webElementGuid>f5eea39d-23f6-45d5-82ff-1ae03a5436d0</webElementGuid>
+      <webElementGuid>52f4f817-fbd4-4de3-a4d9-157815b6fbf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiSelect-select MuiTablePagination-select MuiSelect-standard MuiInputBase-input css-wnvrfg</value>
-      <webElementGuid>89f997c8-8743-4a01-9a3f-86d62dec98b1</webElementGuid>
+      <webElementGuid>3c74f3ea-5288-45d2-8cb2-82e7a2eb87da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>mui-44</value>
-      <webElementGuid>a43a46ec-e084-41b6-8774-2a05a2ca2aba</webElementGuid>
+      <webElementGuid>92fff4a3-4a2f-4687-be78-b705b0360453</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>mui-46 mui-45</value>
-      <webElementGuid>a96a3cde-cd26-4fd0-92da-9770582e2e2e</webElementGuid>
+      <webElementGuid>6e6401eb-6251-4049-bc62-dec50007a32d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-45</value>
-      <webElementGuid>32e32377-bf42-4a33-b75d-04ba70b86343</webElementGuid>
+      <webElementGuid>08ce330c-eb2d-4cd5-9846-9274272ae9d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -95,7 +95,7 @@
       <name>text</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>b065890a-2ce0-4c8a-87e3-7cb34db80430</webElementGuid>
+      <webElementGuid>a0e7d255-7693-4855-b7a2-c0c212421116</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-45&quot;)</value>
-      <webElementGuid>5ce8d54b-b00b-4291-9c5f-9902ae99a5f5</webElementGuid>
+      <webElementGuid>9759a6cb-e236-4996-a701-b544be548443</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mui-45']</value>
-      <webElementGuid>499ecf16-64f2-4ffe-8b48-c8f4c249991b</webElementGuid>
+      <webElementGuid>e8ae7ac6-0f0a-4024-8a7b-afdf2b7d07df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[3]/div/div/div[2]/div</value>
-      <webElementGuid>1308f4a9-ed85-4002-bcb8-5669db0f169e</webElementGuid>
+      <webElementGuid>ab58e812-fed7-46ee-b8dc-bb41e541fd53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jalan Bonto Bulaeng No. 136 RT.49, Kelurahan Sumber Rejo, Kecamatan Balikpapan Tengah 75122'])[1]/following::div[8]</value>
-      <webElementGuid>9bb2a3f5-534a-4296-bd1e-f377408fb50a</webElementGuid>
+      <webElementGuid>edadd127-32cc-4fea-a17d-2f13106f2567</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DIKA Balikpapan'])[1]/following::div[8]</value>
-      <webElementGuid>90f803d8-4c85-40a6-95f0-0d417793691f</webElementGuid>
+      <webElementGuid>d2018664-3f73-4a3f-b89b-5f4ddc7c770b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='10']/parent::*</value>
-      <webElementGuid>fc4c7e43-dad9-4d6a-a924-3fc9c69ce13f</webElementGuid>
+      <webElementGuid>6920ebd7-b0c1-4b9f-8272-8196c3ad1b43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +151,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/div</value>
-      <webElementGuid>9c455804-1737-45f8-a1e8-9ee42c722d89</webElementGuid>
+      <webElementGuid>76d6191d-5653-4805-93fa-abb3892a8cad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,6 +159,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'mui-45' and (text() = '10' or . = '10')]</value>
-      <webElementGuid>84e00e44-b368-45a4-9c9b-924d54cf3d23</webElementGuid>
+      <webElementGuid>ca4d9ca8-e96d-48db-ad31-c3c2a0a9d9af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

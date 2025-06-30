@@ -6,12 +6,11 @@
    <elementGuidId>9ccd215a-c5a6-44d7-bf73-36cbf6e2fd3a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//li[normalize-space()='25']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='mui-26']/li[3]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>9030869f-5a4b-4781-8fa0-77506f3512e2</webElementGuid>
+      <webElementGuid>23de5dac-58ad-49d7-9818-a776b5c32d0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters MuiTablePagination-menuItem css-74h9kj</value>
-      <webElementGuid>bfa109e6-969e-45f7-94bd-9b84eaf4743d</webElementGuid>
+      <webElementGuid>8e2f31bb-8af2-46a8-9ab4-9330436f6bed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>5761f2dd-fcf0-4c11-80f1-d22028a89e17</webElementGuid>
+      <webElementGuid>ddc9239a-e39e-4762-ab45-8c1d6f6ba251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>6b259867-1ffb-45aa-9efc-11cdf6bd6ca4</webElementGuid>
+      <webElementGuid>2ac7d7dc-4f2e-4c1b-89a4-20126383d0b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +54,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c032fdc2-ab4f-4398-a36f-9699baf66d06</webElementGuid>
+      <webElementGuid>c7e55774-3999-4291-972b-599233c5cc85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>data-value</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>f8cbac62-0e7a-4351-bcfd-7a505c665667</webElementGuid>
+      <webElementGuid>3ba98b1b-953f-48ac-887e-3e58f37cd18f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>f94de1cb-8999-4228-aeaa-7ae370828c53</webElementGuid>
+      <webElementGuid>e25370c2-8c07-4fbe-9112-1181d494b1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-26&quot;)/li[@class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters MuiTablePagination-menuItem css-74h9kj&quot;]</value>
-      <webElementGuid>1579d314-57de-4067-9d65-f54f2f6608d0</webElementGuid>
+      <webElementGuid>e67fb7ac-49e7-40bb-989b-da5e5afba493</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-26']/li[3]</value>
-      <webElementGuid>b1596747-d19d-4ba7-8ecb-01f408917f99</webElementGuid>
+      <webElementGuid>72415e51-3234-480a-b7fc-d2ec61bb8429</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[10]/following::li[3]</value>
-      <webElementGuid>c9a08534-ddf9-40bc-bc7f-4924cabb4e8d</webElementGuid>
+      <webElementGuid>2b25c779-7bc5-4f6a-b828-46163e7c043b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[10]/following::li[4]</value>
-      <webElementGuid>eb9ddee2-9176-4e76-9134-ccddadf2f16b</webElementGuid>
+      <webElementGuid>ec631872-23a4-4fa3-a468-3aa5e42d6743</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='25']/parent::*</value>
-      <webElementGuid>61fd3ca9-f801-42cf-8d94-cf4bb46b86ee</webElementGuid>
+      <webElementGuid>447c9c82-5782-4f60-b713-9fe69f7db7bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/ul/li[3]</value>
-      <webElementGuid>d2850938-f62c-4027-aa58-0088d7fbac5b</webElementGuid>
+      <webElementGuid>8a5a54fc-40b5-45d2-a9f5-de7a36baa794</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = '25' or . = '25')]</value>
-      <webElementGuid>9b67bd76-b788-44f3-9fbf-f265e21040cf</webElementGuid>
+      <webElementGuid>ac489dfc-cf9f-4c03-ad60-c102f4a3681f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +134,6 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mui-44']/li[3]</value>
-      <webElementGuid>5995ccaa-9b3d-4dbd-9243-602bdd822b42</webElementGuid>
+      <webElementGuid>51280ad1-2940-4150-b20f-8a0b582c5ee8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

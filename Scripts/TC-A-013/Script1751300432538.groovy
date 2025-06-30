@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Icon_Lainnya'))
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 'Tower18')
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Edit'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_AbsenPoint/Button_Batal_Edit'))
-
-WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/button_Search'))
+WebUI.clickOffset(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 246, 20)
 
 WebUI.delay(2)
+
+WebUI.verifyElementText(findTestObject('Page_AbsenPoint/Field_Absen_Point_Search'), '')
 

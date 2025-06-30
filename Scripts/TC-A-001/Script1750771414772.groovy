@@ -17,23 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Page_Login/Email Field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Page_Login/Login Button'))
-
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
 
 WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Tambahkan'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Nama'), 'Tower8')
+WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Nama'), 'Tower42')
 
 WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Latitude'), '-6.579845389001726')
 
@@ -50,6 +38,4 @@ WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/div_Berhasil Tambah L
 WebUI.verifyElementText(findTestObject('Object Repository/Page_AbsenPoint/div_Berhasil Tambah Location Point'), 'Berhasil Tambah Location Point')
 
 WebUI.delay(2)
-
-WebUI.closeBrowser()
 

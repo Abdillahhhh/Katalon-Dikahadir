@@ -17,23 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Page_Login/Email Field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Page_Login/Login Button'))
-
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
-
-WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 'Tower11')
-
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/button_Search'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
 
 WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Icon_Lainnya'))
 
@@ -48,12 +32,10 @@ TestObject errorTooltip = findTestObject('Object Repository/Page_AbsenPoint/Fiel
 boolean isVisible = WebUI.verifyElementVisible(errorTooltip, FailureHandling.OPTIONAL)
 
 if (isVisible) {
-	WebUI.comment('Validasi muncul: Harap isi bidang ini')
+    WebUI.comment('Validasi muncul: Harap isi bidang ini')
 } else {
-	WebUI.comment('Validasi TIDAK muncul: Harap isi bidang ini')
+    WebUI.comment('Validasi TIDAK muncul: Harap isi bidang ini')
 }
 
 WebUI.delay(2)
-
-WebUI.closeBrowser()
 

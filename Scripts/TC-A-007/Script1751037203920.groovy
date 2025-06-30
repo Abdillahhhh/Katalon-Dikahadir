@@ -21,11 +21,13 @@ WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
 
 WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Icon_Lainnya'))
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Edit'))
+WebUI.click(findTestObject('Page_AbsenPoint/Delete'))
 
-WebUI.click(findTestObject('Page_AbsenPoint/Button_Batal_Edit'))
+WebUI.click(findTestObject('Page_AbsenPoint/button_Ya'))
 
-WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/button_Search'))
+WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/div_Berhasil Delete Location Point'))
+
+WebUI.verifyElementText(findTestObject('Page_AbsenPoint/div_Berhasil Delete Location Point'), 'Berhasil Delete Location Point')
 
 WebUI.delay(2)
 

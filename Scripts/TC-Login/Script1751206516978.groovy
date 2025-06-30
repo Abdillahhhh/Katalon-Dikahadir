@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Icon_Lainnya'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.click(findTestObject('Object Repository/Page_AbsenPoint/Edit'))
+WebUI.setText(findTestObject('Page_Login/Email Field'), 'admin@hadir.com')
 
-WebUI.click(findTestObject('Page_AbsenPoint/Button_Batal_Edit'))
+WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/button_Search'))
+WebUI.click(findTestObject('Page_Login/Login Button'))
 
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Page_DashboardMenu/Header_Dashboard'), 'Dashboard Menu')
 

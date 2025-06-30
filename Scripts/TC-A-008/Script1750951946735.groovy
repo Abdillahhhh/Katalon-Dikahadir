@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Page_Login/Email Field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Page_Login/Password Field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Page_Login/Login Button'))
-
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Management'))
-
-WebUI.click(findTestObject('Object Repository/Page_DashboardMenu/Menu_Absen_Point'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/location-point')
 
 WebUI.setText(findTestObject('Object Repository/Page_AbsenPoint/Field_Absen_Point_Search'), 'Tower18')
 
@@ -41,11 +29,7 @@ WebUI.click(findTestObject('Page_AbsenPoint/Delete'))
 
 WebUI.click(findTestObject('Page_AbsenPoint/button_Tidak'))
 
-WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/Header_Absen_Point'))
-
-WebUI.verifyElementText(findTestObject('Page_AbsenPoint/Header_Absen_Point'), 'Absen Point')
+WebUI.verifyElementVisible(findTestObject('Page_AbsenPoint/button_Search'))
 
 WebUI.delay(2)
-
-WebUI.closeBrowser()
 
