@@ -17,29 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/unit-leave')
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/svg_Aksi_feather feather-more-vertical'))
 
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
-
-WebUI.click(findTestObject('Sidebar/div_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Option'))
+WebUI.waitForElementVisible(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'), 5)
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'))
 
-WebUI.setText(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), '')
+WebUI.click(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Simpan'))
+
+WebUI.verifyTextPresent('harus diisi', true)
 

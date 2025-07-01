@@ -17,27 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Default-Search-Clear-Reset/Cari_field'))
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.sendKeys(findTestObject('Default-Search-Clear-Reset/Cari_field'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
+WebUI.sendKeys(findTestObject('Default-Search-Clear-Reset/Cari_field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+hasilCari = WebUI.getText(findTestObject('Default-Search-Clear-Reset/Cari_field'))
 
-WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Object Repository/Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/dashboard'))
-
-WebUI.setText(findTestObject('Object Repository/Default-Search-Clear-Reset/Cari_field'), 'Dummy')
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Reset'))
-
-WebUI.closeBrowser()
+WebUI.verifyMatch(hasilCari, '', true)
 

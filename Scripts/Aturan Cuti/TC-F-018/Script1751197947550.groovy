@@ -17,23 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Login/button_Masuk'))
-
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/unit-leave')
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feather feather-more-vertical_sebelum view'))
 
@@ -43,9 +27,18 @@ WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feath
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/li_Edit'))
 
-WebUI.setText(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Minimal Bulan Bekerja_total_month_greater'), '8')
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Minimal Bulan Bekerja_total_month_greater'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Minimal Bulan Bekerja_total_month_greater'), 
+    Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Minimal Bulan Bekerja_total_month_greater'), 
+    Keys.chord(Keys.BACK_SPACE))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Delete-Edit-View/Page_View/input_Minimal Bulan Bekerja_total_month_greater'), 
+    '8')
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/button_Tutup'))
 
-WebUI.closeBrowser()
+WebUI.verifyTextNotPresent('Sukses Membuat', false)
 

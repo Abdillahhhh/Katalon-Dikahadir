@@ -6,12 +6,12 @@
    <elementGuidId>d2e01f19-e35e-4af8-9b57-4f5d01533527</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-4075ia</value>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Tambahkan Detail Aturan Cuti' or . = 'Tambahkan Detail Aturan Cuti')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[4]</value>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-4075ia</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4b210a93-95cf-4093-ae0a-a4326bfb0847</webElementGuid>
+      <webElementGuid>a6b99bef-6edd-4a8f-ae95-5871dfe73f10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-4075ia</value>
-      <webElementGuid>8f9e7e5a-65c1-4ef4-af17-9a4a06dc2418</webElementGuid>
+      <webElementGuid>d33dce3f-feae-4856-9940-5098efcf33d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>a2943189-97dc-47fb-933e-750e02cee85a</webElementGuid>
+      <webElementGuid>05767ec2-94e8-456c-b422-e1a8cc959f2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a8058660-eaf6-4ceb-af41-2ea2a876a71d</webElementGuid>
+      <webElementGuid>58c91248-c058-4505-8d57-b5992cc3959a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tambahkan Detail Aturan Cuti</value>
-      <webElementGuid>2324a6dc-3c1a-4856-8442-c64a32763267</webElementGuid>
+      <webElementGuid>38c7f4fe-5b6d-43f4-baae-6f10ccc1953e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;css-10f63sf&quot;]/div[@class=&quot;css-11qbmxu&quot;]/div[@class=&quot;MuiContainer-root css-mbuyzr&quot;]/div[@class=&quot;MuiBox-root css-76jx17&quot;]/section[1]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-oim7up&quot;]/div[@class=&quot;MuiBox-root css-1o3vnny&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-4075ia&quot;]</value>
-      <webElementGuid>b67c6897-a834-49fe-9fe7-392106c1802c</webElementGuid>
+      <webElementGuid>8b9a1dbe-eee7-4f07-b287-be7ca50cf96b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[4]</value>
-      <webElementGuid>ecd570cf-25f0-481c-9fcd-ed703d586db4</webElementGuid>
+      <webElementGuid>1d8d3541-ef02-4c0a-bfe2-e4b2134af767</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div/section/div/div/div/div/button</value>
-      <webElementGuid>44f8604c-c226-4aac-bc8c-aa756c541b6d</webElementGuid>
+      <webElementGuid>1373cacb-2e0a-4870-b007-cdc75d8045d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail Aturan Cuti'])[1]/following::button[1]</value>
-      <webElementGuid>cb2845e1-e630-484a-a27d-5a62e5aea61b</webElementGuid>
+      <webElementGuid>0e218c12-2284-409c-b910-63b6b0771ad2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin Hadir'])[1]/following::button[1]</value>
-      <webElementGuid>811765c1-1fbe-40fb-bac6-50bf2d8b464a</webElementGuid>
+      <webElementGuid>6c0c672c-9873-448b-ac0c-68a7417af165</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimal Bulan Kerja'])[1]/preceding::button[1]</value>
-      <webElementGuid>c18e5dd4-736d-4595-87d9-5075eb473c49</webElementGuid>
+      <webElementGuid>d97d9501-5dd4-479f-a0b9-83fb30061e65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Cuti'])[1]/preceding::button[1]</value>
-      <webElementGuid>86e4bee6-6e5c-4d78-9391-7c95f390551a</webElementGuid>
+      <webElementGuid>3274eb59-1da9-4bc0-81ce-f4d73ab4610e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tambahkan Detail Aturan Cuti']/parent::*</value>
-      <webElementGuid>78bfd7d7-c76c-46cd-9d79-8e1b07856112</webElementGuid>
+      <webElementGuid>a54cb85d-2245-4430-a446-4553350c652b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/button</value>
-      <webElementGuid>425e7b66-ac81-4e0a-a6f7-9f6dd8a763e0</webElementGuid>
+      <webElementGuid>e2e1c26b-216c-49bf-bfaf-8638ebfde845</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Tambahkan Detail Aturan Cuti' or . = 'Tambahkan Detail Aturan Cuti')]</value>
-      <webElementGuid>12facd5d-8ccb-4237-97ee-516cf4260964</webElementGuid>
+      <webElementGuid>802a50ce-9653-419a-a61c-175eb9f1e0ad</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -17,27 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Login/button_Masuk'))
-
-WebUI.click(findTestObject('Login/button_A_MuiButtonBase-root MuiIconButton-r_496560'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
-
-WebUI.setText(findTestObject('Default-Search-Clear-Reset/Cari_field'), 'test')
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Search'))
-
 WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Reset'))
+
+rowInfo = WebUI.getText(findTestObject('Default-Search-Clear-Reset/row-_full'))
+
+WebUI.verifyMatch(rowInfo, '1-10 of.*', true)
 

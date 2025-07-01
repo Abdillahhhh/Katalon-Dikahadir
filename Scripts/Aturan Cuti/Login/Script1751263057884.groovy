@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('AturanCuti/Tambah/button_Tambahkan Aturan Cuti'))
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), 'Aturan Cuti Test')
+WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
-WebUI.click(findTestObject('AturanCuti/Tambah/button_Tutup'))
+WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
-WebUI.delay(1)
+WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.verifyTextNotPresent('Aturan Cuti Test', false)
+WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
 

@@ -33,9 +33,9 @@ WebUI.click(findTestObject('Sidebar/p_Management'))
 
 WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/unit-leave')
 
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feather feather-more-vertical_sebelum view'))
+WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feather feather-more-vertical'))
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/li_View'))
 
@@ -43,5 +43,11 @@ WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/div_Delete_Mui
 
 WebUI.click(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_View/li_25'))
 
+elements = WebUI.findWebElement(findTestObject('List_Data'))
+
+WebUI.verifyEqual(elements.size(), 25)
+
 WebUI.closeBrowser()
+
+WebUI.comment('bug row')
 

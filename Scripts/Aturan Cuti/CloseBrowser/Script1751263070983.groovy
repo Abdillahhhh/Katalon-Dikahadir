@@ -17,13 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('AturanCuti/Tambah/button_Tambahkan Aturan Cuti'))
-
-WebUI.setText(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), 'Aturan Cuti Test')
-
-WebUI.click(findTestObject('AturanCuti/Tambah/button_Tutup'))
-
-WebUI.delay(1)
-
-WebUI.verifyTextNotPresent('Aturan Cuti Test', false)
+WebUI.closeBrowser()
 

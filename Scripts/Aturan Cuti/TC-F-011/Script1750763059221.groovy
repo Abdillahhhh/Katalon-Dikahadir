@@ -17,25 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Login/button_Masuk'))
-
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/unit-leave')
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/svg_Aksi_feather feather-more-vertical'))
+
+WebUI.waitForElementVisible(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'), 5)
 
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/option_Edit'))
 
@@ -50,13 +36,11 @@ WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page
 WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Jumlah Bulan Kerja Sisa Cuti_carry_fo_08b2bb'), 
     '0')
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Tanggal Batas Sisa Cuti_mui-9'), 
-    '1')
-
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Delete-Edit-View/Page_Edit/input_Bulan Batas Sisa Cuti_mui-10'), 
-    '1')
-
 WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_Edit/button_Simpan'))
 
-WebUI.closeBrowser()
+WebUI.verifyTextPresent('Sukses Mengubah', true)
+
+WebUI.delay(1)
+
+WebUI.comment('kurang rapih inputnya')
 

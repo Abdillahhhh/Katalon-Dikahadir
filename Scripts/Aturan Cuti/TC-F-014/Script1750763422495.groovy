@@ -17,25 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/unit-leave')
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Next'))
 
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
+WebUI.click(findTestObject('Default-Search-Clear-Reset/button_Previous'))
 
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Sidebar/line(menu)'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
-
-WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/svg_Aksi_MuiSvgIcon-root MuiSvgIcon-fontSiz_f98db3'))
-
-WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/svg_Aksi_MuiSvgIcon-root MuiSvgIcon-fontSiz_f98db3_1'))
+WebUI.delay(1)
 

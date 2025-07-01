@@ -17,40 +17,55 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'))
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), 'Aturan Cuti Tahunan')
 
-WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('AturanCuti/Tambah/Eligible Pengaturan Cuti (Bulan)_field'))
 
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Eligible Pengaturan Cuti (Bulan)_field'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.click(findTestObject('Sidebar/p_Management'))
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Eligible Pengaturan Cuti (Bulan)_field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Eligible Pengaturan Cuti (Bulan)_field'), '1')
 
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
+WebUI.click(findTestObject('AturanCuti/Tambah/Tanggal Batas Sisa Cuti_field'))
 
-WebUI.click(findTestObject('AturanCuti/Tambah/button_Tambahkan Aturan Cuti'))
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Tanggal Batas Sisa Cuti_field'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('AturanCuti/Tambah/Nama Aturan Cuti_field'), 'Aturan Cuti Tahunan')
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Tanggal Batas Sisa Cuti_field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('AturanCuti/Tambah/Eligible Pengaturan Cuti (Bulan)_field'), '12')
+WebUI.sendKeys(findTestObject('Object Repository/AturanCuti/Tambah/Tanggal Batas Sisa Cuti_field'), '1')
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Tambah/Tanggal Batas Sisa Cuti_field'), '12')
+WebUI.click(findTestObject('AturanCuti/Tambah/Bulan Batas Sisa Cuti_field'))
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Tambah/Bulan Batas Sisa Cuti_field'), '3')
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Bulan Batas Sisa Cuti_field'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/AturanCuti/Tambah/Maksimal Sisa Cuti_field'), 
-    '6')
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Bulan Batas Sisa Cuti_field'), Keys.chord(Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('AturanCuti/Tambah/Jumlah Bulan Kerja Sisa Cuti_field'), '12')
+WebUI.sendKeys(findTestObject('Object Repository/AturanCuti/Tambah/Bulan Batas Sisa Cuti_field'), '1')
+
+WebUI.click(findTestObject('AturanCuti/Tambah/Maksimal Sisa Cuti_field'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Maksimal Sisa Cuti_field'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Maksimal Sisa Cuti_field'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.sendKeys(findTestObject('Object Repository/AturanCuti/Tambah/Maksimal Sisa Cuti_field'), '1')
+
+WebUI.click(findTestObject('AturanCuti/Tambah/Jumlah Bulan Kerja Sisa Cuti_field'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Jumlah Bulan Kerja Sisa Cuti_field'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Jumlah Bulan Kerja Sisa Cuti_field'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.sendKeys(findTestObject('AturanCuti/Tambah/Jumlah Bulan Kerja Sisa Cuti_field'), '1')
 
 WebUI.click(findTestObject('AturanCuti/Tambah/button_Tambahkan'))
 
-WebUI.closeBrowser()
+WebUI.verifyTextPresent('Sukses Membuat', true)
 

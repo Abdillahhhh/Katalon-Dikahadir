@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
 
 WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
 
-WebUI.click(findTestObject('Login/button_Masuk'))
+WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
 
@@ -33,9 +33,13 @@ WebUI.click(findTestObject('Sidebar/p_Management'))
 
 WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
 
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/unit-leave')
 
-WebUI.click(findTestObject('Default-Search-Clear-Reset/Row_25'))
+WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/row'))
 
-WebUI.closeBrowser()
+WebUI.waitForElementVisible(findTestObject('Default-Search-Clear-Reset/row_25 (1)'), 5)
+
+WebUI.click(findTestObject('Object Repository/Default-Search-Clear-Reset/row_25 (1)'))
+
+WebUI.comment('bug row')
 

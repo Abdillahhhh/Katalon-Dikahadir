@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg_Aksi_MuiSvgIcon-root MuiSvgIcon-fontSiz_f98db3</name>
+   <name>button_Next</name>
    <tag></tag>
-   <elementGuidId>b065b749-1f52-4032-b4a3-7be45b708182</elementGuidId>
+   <elementGuidId>cacbe6b4-e879-440a-8a83-432673706dbc</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::*[name()='svg'][14]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>1306e71e-9b96-487a-8fdd-885983ab6cac</webElementGuid>
+      <webElementGuid>29bbab9b-ac31-4cb2-ad55-8bd4338dceb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv</value>
-      <webElementGuid>acd0f9d9-01b8-4649-a787-5681e8e0416e</webElementGuid>
+      <webElementGuid>e42be16c-f5af-4d2c-afab-0dbdb68e4a8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>830cc585-1700-4376-8eeb-f95495757966</webElementGuid>
+      <webElementGuid>0e6cc066-8daa-4cf5-9fab-f986e9795d9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>85035d02-b668-4ffc-b41e-4c663b979492</webElementGuid>
+      <webElementGuid>09c2094c-088e-4c5c-98eb-e9b693a67bd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>55714e27-4547-466a-b5b6-a08d7a89d87a</webElementGuid>
+      <webElementGuid>4ae9cf9e-fcf9-4ab8-8732-9c54c1d2b671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>KeyboardArrowRightIcon</value>
-      <webElementGuid>9e383a75-67b7-4f14-b9e0-985549c99ca3</webElementGuid>
+      <webElementGuid>b61caa22-0138-467f-8a41-068f42163c15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;css-10f63sf&quot;]/div[@class=&quot;css-11qbmxu&quot;]/div[@class=&quot;MuiContainer-root css-mbuyzr&quot;]/div[@class=&quot;MuiBox-root css-76jx17&quot;]/section[1]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-oim7up&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1p1km5h&quot;]/div[@class=&quot;MuiTablePagination-root css-o9ey65&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-1kjtqje&quot;]/div[@class=&quot;MuiTablePagination-actions&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeMedium css-1774owm&quot;]/svg[@class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv&quot;]</value>
-      <webElementGuid>50c659ce-45b9-4c0c-9309-c253a66b0fa2</webElementGuid>
+      <webElementGuid>b110ed83-db29-4045-b761-20c41ca68930</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::*[name()='svg'][14]</value>
-      <webElementGuid>ce89693c-f473-4754-a6d8-3a80f7424ad9</webElementGuid>
+      <webElementGuid>e9eff130-bdbc-43f1-8e9b-bf06556ace61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Dibuat'])[1]/following::*[name()='svg'][14]</value>
-      <webElementGuid>515d55e9-6b8a-45c0-89b7-bd4bb7d25cf0</webElementGuid>
+      <webElementGuid>81604efb-969e-4d14-a955-0a7edd0f73c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dense padding'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>9d7a1b05-ac50-47a5-9a28-811bc66be162</webElementGuid>
+      <webElementGuid>a93cca99-b1be-4a28-b961-e57a0921a0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +108,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>19477bc5-8f98-4442-92af-b7d931151d16</webElementGuid>
+      <webElementGuid>6c420e40-cdf6-4a8b-8116-cb0032c7e753</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

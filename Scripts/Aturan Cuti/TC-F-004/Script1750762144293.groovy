@@ -17,27 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.click(findTestObject('Login/button_Masuk'))
-
-WebUI.click(findTestObject('Sidebar/option_Sidebar(menu)'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('Default-Search-Clear-Reset/dashboard'))
-
-WebUI.click(findTestObject('AturanCuti/Tambah/button_Tambahkan Aturan Cuti'))
+WebUI.click(findTestObject('Object Repository/AturanCuti/Tambah/button_Tambahkan Aturan Cuti'))
 
 WebUI.click(findTestObject('Object Repository/AturanCuti/Tambah/button_Tambahkan'))
 
-WebUI.closeBrowser()
-
+WebUI.verifyTextPresent('harus diisi!', true)

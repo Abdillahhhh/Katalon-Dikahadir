@@ -17,25 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+rowInfo = WebUI.getText(findTestObject('Default-Search-Clear-Reset/row-_full'))
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
-
-WebUI.setText(findTestObject('Login/Email_field'), 'admin@hadir.com')
-
-WebUI.setEncryptedText(findTestObject('Login/Password_field'), 'KQScaJbfjNMJXZCQ/auLWFkJtbSG6Xl8')
-
-WebUI.sendKeys(findTestObject('Login/Password_field'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Sidebar/svg_A_feather feather-menu'))
-
-WebUI.click(findTestObject('Sidebar/p_Management'))
-
-WebUI.click(findTestObject('Sidebar/p_Aturan Cuti'))
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/svg_Aksi_feather feather-more-vertical_sebelum view'))
-
-WebUI.click(findTestObject('AturanCuti/Delete-Edit-View/Page_View/li_View'))
-
-WebUI.closeBrowser()
+WebUI.verifyMatch(rowInfo, '1-1 of 1', true)
 
