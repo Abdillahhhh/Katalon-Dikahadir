@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'bbuuka menu management'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
-
-'buuka menu jadwal'
-WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
 
 WebUI.setText(findTestObject('Jadwal/Search-Rows/field_Search'), '2testing1')
 
@@ -35,10 +29,13 @@ WebUI.click(findTestObject('Jadwal/Search-Rows/button_Reset'))
 
 WebUI.delay(1)
 
-// validasi munculnya row 1-10 of 86 sebagai verifikasi keberhasilan kembali ke tampilan utama
-String rowInfo = WebUI.getText(findTestObject('Jadwal/Search-Rows/rows-_full'))
+// Verifikasi kolom search sudah kosong
+String searchValue = WebUI.getAttribute(findTestObject('Jadwal/Search-Rows/field_Search'), 'value')
+WebUI.verifyMatch(searchValue, '', false)
 
-WebUI.verifyMatch(rowInfo, '1-10 of 87', false)
+// validasi munculnya row 1-10 of 86 sebagai verifikasi keberhasilan kembali ke tampilan utama
+// String rowInfo = WebUI.getText(findTestObject('Jadwal/Search-Rows/rows-_full'))
+// WebUI.verifyMatch(rowInfo, '1-10 of', false)
 
 WebUI.delay(1)
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-D-018-done</name>
+   <name>Close</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7fbb111f-126f-47d2-8bef-24e3d632576a</testCaseGuid>
+   <testCaseGuid>e41cdb0d-1ceb-441f-8bfe-82a2c7cd35db</testCaseGuid>
 </TestCaseEntity>

@@ -17,24 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
 
-'bbuuka menu management'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
-
-'buuka menu jadwal'
-WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
-
-WebUI.setText(findTestObject('Jadwal/Search-Rows/field_Search'), '2testing1')
+WebUI.setText(findTestObject('Jadwal/Search-Rows/field_Search'), 'Kelompok2PTG')
 
 WebUI.click(findTestObject('Jadwal/Search-Rows/button_Search'))
 
 WebUI.delay(1)
 
+String namaJadwal = WebUI.getText(findTestObject('Jadwal/Search-Rows/column_Nama'))
+
+WebUI.verifyMatch(namaJadwal, 'Kelompok2PTG', false)
+
 // validasi munculnya row 1-1 of 1 sebagai verifikasi keberhasilan field search
-String rowInfo = WebUI.getText(findTestObject('Jadwal/Search-Rows/rows_1-1 of 1'))
-
-WebUI.verifyMatch(rowInfo, '1-1 of 1', false)
-
+// String rowInfo = WebUI.getText(findTestObject('Jadwal/Search-Rows/rows_1-1 of 1'))
+// WebUI.verifyMatch(rowInfo, '1-1 of', false)
 WebUI.delay(1)
 

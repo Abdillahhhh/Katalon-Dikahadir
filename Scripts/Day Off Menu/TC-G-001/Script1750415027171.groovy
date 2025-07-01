@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'klik ke menu Management, agar terbuka menunya'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
 'klik untuk buka keseluruhan management day off'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_dayoff'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 'verifikasi header Cuti Bersama'
 WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/Dayoff_menu'), 0)
@@ -34,9 +32,4 @@ WebUI.verifyElementPresent(findTestObject('Day Off/Management_Dayoff/additional/
 WebUI.verifyElementPresent(findTestObject('Day Off/Cuti Bersama/h2_Cuti Bersama'), 0)
 
 WebUI.comment('✅ Header \'Cuti Bersama\' ditemukan.')
-
-WebUI.delay(2)
-
-'Tutup browser setelah menemukan validasi headernya'
-WebUI.closeBrowser()
 

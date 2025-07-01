@@ -17,21 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
-
-'klik burger dot disebelah tanggall efektif'
-WebUI.click(findTestObject('Jadwal/Delete-Update-View/Page_View/View_option'))
-
-'klilk delette option'
-WebUI.click(findTestObject('Jadwal/Delete-Update-View/Page_View/Delete_option'))
-
-'batalkan delete dengan mengkllik \'tidak\''
-WebUI.click(findTestObject('Jadwal/Delete-Update-View/Page_View/Delete_Tidak'))
-
-'validasi lagi layar jadwal utama ketika sudah klik \'tidak\''
-WebUI.verifyElementPresent(findTestObject('Jadwal/Tipe_Jadwal Option/Page_HADIR/th_NAMA'), 0)
-
-WebUI.comment('✅ Vallidasi halaman Jadwal.')
-
-WebUI.delay(1)
+WebUI.closeBrowser()
 

@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'bbuuka menu management'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
-
-'buuka menu jadwal'
-WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
 
 WebUI.setText(findTestObject('Jadwal/Search-Rows/field_Search'), '2testing1')
 
@@ -39,5 +33,6 @@ String currentValue = WebUI.getAttribute(inputSearch, 'value')
 
 // Validasi bahwa kolom pencarian sudah kosong (tidak ada teks lagi)
 WebUI.verifyMatch(currentValue, '', false)
-// Jika currentValue == '', maka validasi berhasil (field memang kosong)
-// Jika tidak kosong, maka test akan FAILED
+
+WebUI.delay(1)
+
