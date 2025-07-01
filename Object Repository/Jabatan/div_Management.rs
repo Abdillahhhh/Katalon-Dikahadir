@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Management</name>
+   <tag></tag>
+   <elementGuidId>4ec11987-ae10-4e76-975d-543dbe374002</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9245689e-6f12-41de-8439-52d0904744c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar__item MuiBox-root css-0</value>
+      <webElementGuid>cd388c03-44d0-4964-a631-e0ae45729988</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Management</value>
+      <webElementGuid>290a20d3-45c5-4ff0-8a1e-2658dd8cbc2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-10f63sf&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/div[@class=&quot;MuiDrawer-root MuiDrawer-docked css-1tu59u4&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-1yw4omu&quot;]/div[1]/div[@class=&quot;simplebar-wrapper&quot;]/div[@class=&quot;simplebar-mask&quot;]/div[@class=&quot;simplebar-offset&quot;]/div[@class=&quot;simplebar-content-wrapper&quot;]/div[@class=&quot;simplebar-content&quot;]/div[@class=&quot;MuiBox-root css-10klw3m&quot;]/div[@class=&quot;sidebar MuiBox-root css-ftf74w&quot;]/div[@class=&quot;MuiBox-root css-old1by&quot;]/div[@class=&quot;MuiBox-root css-mkf7ch&quot;]/div[@class=&quot;MuiBox-root css-8atqhb&quot;]/div[@class=&quot;sidebar__wrapper MuiBox-root css-1tkg8nm&quot;]/div[@class=&quot;sidebar__item MuiBox-root css-0&quot;]</value>
+      <webElementGuid>3fab4079-64cd-4d85-bac9-b7ea59bdef00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/div[4]/div/div/div[2]</value>
+      <webElementGuid>df5caa5a-01f2-4aed-8b58-d38da89a37c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin Hadir'])[1]/following::div[69]</value>
+      <webElementGuid>23f95ef1-30a7-483b-afa2-16ab8a0710cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi,'])[1]/following::div[69]</value>
+      <webElementGuid>8d2453be-d321-495a-9856-abce324ac055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date'])[1]/preceding::div[6]</value>
+      <webElementGuid>cc22ae91-c79f-422e-9ed4-3b7f5ceb7932</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::div[7]</value>
+      <webElementGuid>4125a7cd-1887-4d0a-a2c1-a8605169400b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]</value>
+      <webElementGuid>03cb0061-a8ed-4654-99e7-dd6238604fb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Management' or . = 'Management')]</value>
+      <webElementGuid>1baaef6d-d07f-4cf8-b93f-00dc9e0aa493</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
