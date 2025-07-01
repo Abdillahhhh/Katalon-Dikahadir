@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Email_field</name>
+   <name>Field_Longitude</name>
    <tag></tag>
-   <elementGuidId>47318775-dbe4-4368-a261-1ba39bfa51df</elementGuidId>
+   <elementGuidId>5f06f7e4-bf8c-4c6a-b75a-a9c589111e8b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <key>CSS</key>
+         <value>#longitude</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#email</value>
+         <key>XPATH</key>
+         <value>//input[@id='longitude']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,15 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>462e71be-59e5-4836-8c79-431425f94dc4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>b56ffafa-52e6-465f-92e9-596aab507a06</webElementGuid>
+      <webElementGuid>c372f89b-b725-46fc-aa2b-734b14f49e1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,70 +31,78 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ebea79d3-b61d-4825-8af9-4be1ef83d207</webElementGuid>
+      <webElementGuid>d0f339ee-b27e-4616-947f-83901542763f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>d75b99c2-6185-4a14-8e25-39411c52e9f3</webElementGuid>
+      <value>longitude</value>
+      <webElementGuid>f4fd4181-5784-4110-94ff-8f0e93af1904</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>e76879b4-b2cb-4005-8937-63b1ee1790fd</webElementGuid>
+      <value>longitude</value>
+      <webElementGuid>5fa1fd38-c3e7-4a84-8076-73339b66b9eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7f763132-e525-47e1-bf1b-5b0a6062c1d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
-      <webElementGuid>abf03ba7-8f23-435a-8c46-edf5d354eaa5</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng</value>
+      <webElementGuid>c510ea99-67e8-4f07-bd7c-a7a92d997f09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>2981509e-fa4e-4676-8d02-9655ab8d972a</webElementGuid>
+      <value>id(&quot;longitude&quot;)</value>
+      <webElementGuid>5effdf3a-1603-41e1-ab26-71f572aa23d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>20e6dad6-8705-4ab1-a2fb-d4bc9c3d1982</webElementGuid>
+      <value>//input[@id='longitude']</value>
+      <webElementGuid>a65d76e4-dd2f-4690-ac9a-ee4bd31c4df4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div[2]/div/div[2]/form/div/div/input</value>
-      <webElementGuid>48db947a-aaff-4c81-96f7-6b32228e1e03</webElementGuid>
+      <value>//div[@id='alert-dialog-slide-description']/div[3]/div/input</value>
+      <webElementGuid>7345ada6-0090-465e-b3ea-90ded3f98ff1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>c65a9628-7f17-4696-8cf9-ffef93a42bc1</webElementGuid>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>62bc1ec3-2702-4268-9130-b011da1bf7fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @id = 'email' and @name = 'email']</value>
-      <webElementGuid>dda73cf2-f7d1-4d67-8868-3ba1bb312993</webElementGuid>
+      <value>//input[@id = 'longitude' and @name = 'longitude' and @type = 'text']</value>
+      <webElementGuid>6e247658-973e-4a82-953e-1b9b6fcb35d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

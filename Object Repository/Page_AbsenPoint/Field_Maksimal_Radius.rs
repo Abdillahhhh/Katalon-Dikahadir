@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Email_field</name>
+   <name>Field_Maksimal_Radius</name>
    <tag></tag>
-   <elementGuidId>47318775-dbe4-4368-a261-1ba39bfa51df</elementGuidId>
+   <elementGuidId>bbb117f6-f36f-4c57-b8f0-dee25e2039f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <key>CSS</key>
+         <value>#max_radius</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#email</value>
+         <key>XPATH</key>
+         <value>//input[@id='max_radius']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,15 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>462e71be-59e5-4836-8c79-431425f94dc4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>b56ffafa-52e6-465f-92e9-596aab507a06</webElementGuid>
+      <webElementGuid>e3355874-f7d2-4214-8e47-409ccca85a57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,70 +31,78 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ebea79d3-b61d-4825-8af9-4be1ef83d207</webElementGuid>
+      <webElementGuid>9e59a2d8-ca14-497f-84e5-fa5231ed9849</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>d75b99c2-6185-4a14-8e25-39411c52e9f3</webElementGuid>
+      <value>max_radius</value>
+      <webElementGuid>46253259-b6c5-4eaf-8615-1c0398df18dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>e76879b4-b2cb-4005-8937-63b1ee1790fd</webElementGuid>
+      <value>max_radius</value>
+      <webElementGuid>f79bdc93-c5b0-45d1-a0e8-fa6f47a88ad0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>5b66cf19-2005-4857-8c85-dae65be185fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
-      <webElementGuid>abf03ba7-8f23-435a-8c46-edf5d354eaa5</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng</value>
+      <webElementGuid>8e05428f-c454-40ca-8442-d65e18e12238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>2981509e-fa4e-4676-8d02-9655ab8d972a</webElementGuid>
+      <value>id(&quot;max_radius&quot;)</value>
+      <webElementGuid>3a04ff12-4064-41dc-af98-2967c4ddaf70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>20e6dad6-8705-4ab1-a2fb-d4bc9c3d1982</webElementGuid>
+      <value>//input[@id='max_radius']</value>
+      <webElementGuid>da1e01d3-370c-4f77-960c-38f4f4167166</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div[2]/div/div[2]/form/div/div/input</value>
-      <webElementGuid>48db947a-aaff-4c81-96f7-6b32228e1e03</webElementGuid>
+      <value>//div[@id='alert-dialog-slide-description']/div[4]/div/input</value>
+      <webElementGuid>b70d924f-42f5-4cd3-b415-64cf736011d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>c65a9628-7f17-4696-8cf9-ffef93a42bc1</webElementGuid>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>76e01d4a-c12f-482c-ac7a-d0ea165b20a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @id = 'email' and @name = 'email']</value>
-      <webElementGuid>dda73cf2-f7d1-4d67-8868-3ba1bb312993</webElementGuid>
+      <value>//input[@id = 'max_radius' and @name = 'max_radius' and @type = 'number']</value>
+      <webElementGuid>3a1ce403-f477-4182-8c6f-759096c8797a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

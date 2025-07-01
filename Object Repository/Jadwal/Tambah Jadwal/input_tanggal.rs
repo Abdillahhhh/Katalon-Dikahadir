@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Email_field</name>
+   <name>input_tanggal</name>
    <tag></tag>
-   <elementGuidId>47318775-dbe4-4368-a261-1ba39bfa51df</elementGuidId>
+   <elementGuidId>0f81b623-aa7d-467b-9453-3b40b2ed70f9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//input[@id='mui-50']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-50']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>#mui-50</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,15 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>462e71be-59e5-4836-8c79-431425f94dc4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>b56ffafa-52e6-465f-92e9-596aab507a06</webElementGuid>
+      <webElementGuid>ec93a28b-bcdd-4341-bd90-2b60d6db084e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,70 +35,86 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ebea79d3-b61d-4825-8af9-4be1ef83d207</webElementGuid>
+      <webElementGuid>bc248d60-9ef3-4854-bb37-f199172b723b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>d75b99c2-6185-4a14-8e25-39411c52e9f3</webElementGuid>
+      <value>mm/dd/yyyy</value>
+      <webElementGuid>b69d7c24-a481-4d88-b122-6d0d212e5d0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>e76879b4-b2cb-4005-8937-63b1ee1790fd</webElementGuid>
+      <value>tel</value>
+      <webElementGuid>c6f1612b-0608-4b1c-9f03-107846f04214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
-      <webElementGuid>abf03ba7-8f23-435a-8c46-edf5d354eaa5</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2</value>
+      <webElementGuid>6384f53e-f27b-425d-ad68-f53a1a300599</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>06/24/2025</value>
+      <webElementGuid>ca876240-0062-4b28-971b-b3b529e889e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-50</value>
+      <webElementGuid>8ecb47c6-827d-4131-bcf8-3e0ff798e646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>2981509e-fa4e-4676-8d02-9655ab8d972a</webElementGuid>
+      <value>id(&quot;mui-50&quot;)</value>
+      <webElementGuid>7cfaaf99-0326-4b6a-b21a-2b4e1e9b4a51</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>20e6dad6-8705-4ab1-a2fb-d4bc9c3d1982</webElementGuid>
+      <value>//input[@id='mui-50']</value>
+      <webElementGuid>b57422ff-f7f2-4ca8-a637-d32ef909e721</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__next']/div/div/div[2]/div/div[2]/form/div/div/input</value>
-      <webElementGuid>48db947a-aaff-4c81-96f7-6b32228e1e03</webElementGuid>
+      <value>//div[@id='alert-dialog-slide-description']/div/div[2]/div/div/div/input</value>
+      <webElementGuid>356d1e5b-a73b-40c8-9a69-a25286076891</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>c65a9628-7f17-4696-8cf9-ffef93a42bc1</webElementGuid>
+      <value>//div[2]/div/div/div/input</value>
+      <webElementGuid>7e375ef1-b2b5-4f06-9551-1deb8087a36f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @id = 'email' and @name = 'email']</value>
-      <webElementGuid>dda73cf2-f7d1-4d67-8868-3ba1bb312993</webElementGuid>
+      <value>//input[@placeholder = 'mm/dd/yyyy' and @type = 'tel' and @id = 'mui-50']</value>
+      <webElementGuid>57bd93ad-ce45-4cd8-b9df-9aa134395156</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

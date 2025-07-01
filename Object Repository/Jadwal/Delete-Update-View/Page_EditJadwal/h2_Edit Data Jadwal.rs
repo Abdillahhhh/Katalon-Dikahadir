@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Edit Data Jadwal</name>
+   <tag></tag>
+   <elementGuidId>d3117657-9261-4fdd-a243-f38c6b2ea588</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//h2[normalize-space()='Edit Data Jadwal'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#alert-dialog-slide-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>23234093-67df-4c84-bcd6-80b0a53217e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-h4 MuiDialogTitle-root css-3fsi6u</value>
+      <webElementGuid>a89a8bea-e377-4d3a-b704-1e5d842545d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>alert-dialog-slide-title</value>
+      <webElementGuid>b85d17b6-5abf-475a-97b2-9d85f6c20b14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit Data Jadwal</value>
+      <webElementGuid>4eaf2d9f-08da-45c1-aed2-4eae9264ee55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;alert-dialog-slide-title&quot;)</value>
+      <webElementGuid>c0bcfab1-ef45-4050-96bf-4abb51af89ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='alert-dialog-slide-title']</value>
+      <webElementGuid>f7c0d263-f043-4567-90a8-1ad1466b919e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::h2[1]</value>
+      <webElementGuid>92742434-1a5b-4580-8bc6-a10b5a30b983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipe Jadwal'])[1]/preceding::h2[1]</value>
+      <webElementGuid>e2988161-7c56-42c9-a276-00efd17dec2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal kerja tetap'])[6]/preceding::h2[1]</value>
+      <webElementGuid>81e4e298-b54b-45ca-9106-815bc4a4ecbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit Data Jadwal']/parent::*</value>
+      <webElementGuid>44fe73f4-24a0-4cfe-b6e7-5d93fafb88ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>4450798b-4049-45d8-8eab-e032c9ec7fe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'alert-dialog-slide-title' and (text() = 'Edit Data Jadwal' or . = 'Edit Data Jadwal')]</value>
+      <webElementGuid>1336391c-40d5-4fcf-804f-56aa7871e809</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
