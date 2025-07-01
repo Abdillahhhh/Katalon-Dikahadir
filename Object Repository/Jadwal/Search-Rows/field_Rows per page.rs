@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_Rows per page</name>
+   <tag></tag>
+   <elementGuidId>bf8b3e64-75dd-42fb-a47f-caf5e25446f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mui-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//p[@id='mui-3'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>07c9ea21-980b-4581-849c-14e7e5f5aac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTablePagination-selectLabel css-kim0d</value>
+      <webElementGuid>f1ae1658-2d85-40bb-954a-0276aba8ad1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-3</value>
+      <webElementGuid>d9cd27e9-8817-40f4-8732-ff525f056a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rows per page:</value>
+      <webElementGuid>14c2f5c5-a604-4ca3-959e-cce792530923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mui-3&quot;)</value>
+      <webElementGuid>8db3a9b9-dd6b-4425-844f-0e9a80ee6f14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='mui-3']</value>
+      <webElementGuid>b54e1908-a2c2-420d-a4f0-8709bcafea8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[3]/div/div/p</value>
+      <webElementGuid>1c7bdf3b-00ce-4275-8a92-26e675665f42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal kerja tetap'])[5]/following::p[1]</value>
+      <webElementGuid>cbe2c71d-05ff-43c2-99cb-ac9c4853ab22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'])[1]/following::p[1]</value>
+      <webElementGuid>df5d7a0d-9636-4a2f-aeda-f23d5bdc8e5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/preceding::p[4]</value>
+      <webElementGuid>86d79a47-4cff-478a-b0e2-7d4973af9054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A'])[2]/preceding::p[4]</value>
+      <webElementGuid>d137fcf4-fb10-48f4-8ff6-8d58c9f695d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rows per page:']/parent::*</value>
+      <webElementGuid>9bf2c7f6-0d7f-4f89-8fa7-14224eafecb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/p</value>
+      <webElementGuid>d3078feb-4d03-48f2-9190-fadb21a439ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'mui-3' and (text() = 'Rows per page:' or . = 'Rows per page:')]</value>
+      <webElementGuid>bd7a29da-ca9c-4416-87e7-5a69a2c08d75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

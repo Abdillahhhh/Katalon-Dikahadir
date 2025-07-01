@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Aksi_feather feather-more-vertical</name>
+   <tag></tag>
+   <elementGuidId>57b9572f-829d-4ff5-8d8a-47ca4c88f742</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.feather.feather-more-vertical</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Test* 1 2 3 4 5 27 Jun 2025 action&quot;i] >> internal:label=&quot;action&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>b20cf888-4fdd-46d9-b5b5-f12d187524d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>056938a6-53eb-475e-9d6c-13e530776510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>61f8ce6f-fa2e-43c9-bff4-5204d30a3548</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>3433a85a-71bd-4f01-8d8f-60afd696260f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>f532652d-38c5-489f-b5ef-3a9b15208568</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>6a3bf844-9ca1-4d25-8777-ee0565057c9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>b589c866-8496-40e8-80d5-c3863c2730c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>d44e8c7e-4d9f-4c9a-91b6-7633e3c54634</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>0d540662-fa9e-4d45-b547-0fa1f1745601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feather feather-more-vertical </value>
+      <webElementGuid>b6713860-882e-4c61-a213-9591d515fa05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-10f63sf&quot;]/div[@class=&quot;css-11qbmxu&quot;]/div[@class=&quot;MuiContainer-root css-mbuyzr&quot;]/div[@class=&quot;MuiBox-root css-76jx17&quot;]/section[1]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-oim7up&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1p1km5h&quot;]/div[@class=&quot;MuiTableContainer-root css-1dfrqi4&quot;]/table[@class=&quot;MuiTable-root css-13tchss&quot;]/tbody[@class=&quot;MuiTableBody-root css-1xnox0e&quot;]/tr[@class=&quot;MuiTableRow-root MuiTableRow-hover css-9arnca&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-8k6it1&quot;]/div[@class=&quot;MuiBox-root css-j7qwjs&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-1ro73q1&quot;]/svg[@class=&quot;feather feather-more-vertical&quot;]</value>
+      <webElementGuid>88dfa000-314f-4d41-80a6-2fdff67ef4fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>39ba23f9-a6ae-4ca8-a856-0fefffd8bd35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Dibuat'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>2ab1e813-8556-4112-aa1c-9f51c7299977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dense padding'])[1]/preceding::*[name()='svg'][15]</value>
+      <webElementGuid>8b24544c-5834-4cf6-9782-dae2cce71b98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Profile'])[1]/preceding::*[name()='svg'][15]</value>
+      <webElementGuid>b8ebfbd8-b3f4-4dff-ad82-f046e766ef1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

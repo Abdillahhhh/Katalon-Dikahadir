@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tahun_picker</name>
+   <tag></tag>
+   <elementGuidId>8a7d20c6-15c8-43bf-ab07-e8e46cc45e45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='June 2025'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiPickersCalendarHeader-switchViewIcon.css-sldnni</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>f7bebc53-c897-4eeb-9f3a-cfff843907fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPickersCalendarHeader-switchViewIcon css-sldnni</value>
+      <webElementGuid>9b503f5a-1502-4064-b605-5afdc37d8eb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a77d8b1b-60b4-449d-a30c-aad6ae3fbb25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ed753bc8-182f-4658-8c96-fa68602bce89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>c33252fc-3293-45eb-a4f8-aed3a25d7b1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>ArrowDropDownIcon</value>
+      <webElementGuid>4e54178f-f799-4f3f-86d4-04b134e5c73c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;base-Popper-root MuiPickersPopper-root css-1mtsuo7&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPickersPopper-paper css-h4okpc&quot;]/div[@class=&quot;MuiCalendarOrClockPicker-root css-j7qwjs&quot;]/div[@class=&quot;css-epd502&quot;]/div[@class=&quot;MuiCalendarPicker-root css-1brzq0m&quot;]/div[@class=&quot;MuiPickersCalendarHeader-root css-1dozdou&quot;]/div[@class=&quot;MuiPickersCalendarHeader-labelContainer css-1n1wnhz&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiPickersCalendarHeader-switchViewButton css-t9g7nz&quot;]/svg[@class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPickersCalendarHeader-switchViewIcon css-sldnni&quot;]</value>
+      <webElementGuid>eff20764-69e7-434a-9198-a59322489770</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='June 2025'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>81cd8b50-f78a-45a5-a6f9-2dd3ee5cd5a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>961b0ba9-43d5-4e2e-b156-31fb25fd20e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>21015a12-c5ca-4010-ace5-5e97f43dc1f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>180c21cf-f1a3-4db6-a520-51f460758ff7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
