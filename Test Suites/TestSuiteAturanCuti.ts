@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -126,7 +126,7 @@
    <testCaseLink>
       <guid>950da98b-6b42-4438-9f02-a8f268e97750</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Aturan Cuti/TC-F-016</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
@@ -154,7 +154,7 @@
    <testCaseLink>
       <guid>220bac38-aa5b-4264-9f3c-83485adc02c5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Aturan Cuti/TC-F-022</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

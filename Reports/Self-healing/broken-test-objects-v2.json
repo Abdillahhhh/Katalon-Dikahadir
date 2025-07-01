@@ -1,3 +1,44 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DashboardMenu/Header_Dashboard",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Admin Hadir\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_DashboardMenu/Header_Dashboard_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_AbsenPoint/h6_Tower18",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/div/table/tbody/tr/td/h6",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027DESCRIPTION\u0027])[1]/following::h6[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_AbsenPoint/h6_Tower18_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Default-Search-Clear-Reset/Cari_field",
+      "brokenLocator": "//input[@id\u003d\u0027mui-4\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/div/div/div/div/section/div/div/div/form/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Default-Search-Clear-Reset/Cari_field_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AturanCuti/Tambah/Bulan Batas Sisa Cuti_field",
+      "brokenLocator": "//input[@id\u003d\u0027mui-10\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AturanCuti/Tambah/Bulan Batas Sisa Cuti_field_position.png"
+    }
+  ]
 }
