@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-D-001-done</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a07a3e99-2bd6-42dd-a7db-04ad85caa03c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c119f332-6709-4a84-87e5-00262bc7444a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>c119f332-6709-4a84-87e5-00262bc7444a</id>
+      <masked>false</masked>
+      <name>Tipe_Jadwal</name>
+   </variable>
+</TestCaseEntity>
