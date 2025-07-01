@@ -19,13 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'bbuuka menu management'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
-
-'buuka menu jadwal'
-WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
 
 // Klik tombol 'tambahkan'
 WebUI.click(findTestObject('Object Repository/Jadwal/Tambah Jadwal/Hari Kerja/Daftar Jadwal/button_Tambahkan'))
@@ -34,7 +28,8 @@ WebUI.click(findTestObject('Object Repository/Jadwal/Tambah Jadwal/Hari Kerja/Da
 WebUI.click(findTestObject('Object Repository/Jadwal/Tambah Jadwal/Hari Kerja/Daftar Jadwal/button_Tambah'))
 
 // Verifikasi apakah pesan error "Harap isi bidang ini" muncul
-TestObject errorTooltip = findTestObject('Object Repository/Jadwal/Tipe_Jadwal Option/dropdown tipe jadwal') // Ganti dengan TestObject yang menunjuk ke elemen error-nya
+TestObject errorTooltip = findTestObject('Object Repository/Jadwal/Tipe_Jadwal Option/dropdown tipe jadwal' // Ganti dengan TestObject yang menunjuk ke elemen error-nya
+    )
 
 boolean isVisible = WebUI.verifyElementVisible(errorTooltip, FailureHandling.OPTIONAL)
 

@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'bbuuka menu management'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
-
-'buuka menu jadwal'
-WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
 
 'Validasi ulang halaman jadwall setelah klik simpan'
 WebUI.verifyElementPresent(findTestObject('Jadwal/Tipe_Jadwal Option/Page_HADIR/th_NAMA'), 0)
@@ -31,6 +25,4 @@ WebUI.verifyElementPresent(findTestObject('Jadwal/Tipe_Jadwal Option/Page_HADIR/
 WebUI.comment('✅ Vallidasi ulang halaman Jadwal.')
 
 WebUI.delay(1)
-
-WebUI.closeBrowser()
 

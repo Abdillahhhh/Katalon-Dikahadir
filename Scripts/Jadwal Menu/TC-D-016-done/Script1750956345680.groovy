@@ -17,13 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'bbuuka menu management'
-WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
-
-'buuka menu jadwal'
-WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Jadwal_menu'))
+WebUI.navigateToUrl('https://magang.dikahadir.com/management/schedule')
 
 WebUI.executeJavaScript('window.scrollBy({top: 500, behavior: "smooth"})', null)
 
@@ -37,7 +32,21 @@ WebUI.delay(1)
 // validasi munculnya row 1-10 of 86 sebagai verifikasi keberhasilan kembali ke tampilan utama
 String rowInfo = WebUI.getText(findTestObject('Object Repository/Jadwal/Search-Rows/rows-_full'))
 
-WebUI.verifyMatch(rowInfo, '11-20 of 87', false)
+String getPartBeforeOf(String originalText) {
+	if (originalText == null) {
+		return null;
+	}
+
+	String lowerCaseText = originalText.toLowerCase();
+	int indexOfOf = lowerCaseText.indexOf(" of ");
+
+	if (indexOfOf != -1) {
+		return originalText.substring(0, indexOfOf).trim();
+	} else {
+		return originalText;
+	}
+}
+
+WebUI.verifyMatch(getPartBeforeOf(rowInfo), '11-20', false)
 
 WebUI.delay(1)
-

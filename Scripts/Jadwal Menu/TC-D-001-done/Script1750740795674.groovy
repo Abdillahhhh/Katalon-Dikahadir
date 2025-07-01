@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login1'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'bbuuka menu management'
 WebUI.click(findTestObject('Day Off/Management_Dayoff/Management_menu'))
 
@@ -54,11 +52,11 @@ WebUI.sendKeys(findTestObject('Jadwal/Tambah Jadwal/Alert/input_Tanggal Effectiv
 
 // (Opsional) Jika ingin ganti dengan tanggal baru:
 'isi tanggal baru'
-WebUI.sendKeys(findTestObject('Jadwal/Tambah Jadwal/Alert/input_Tanggal Effective'), '12/30/2022')
+WebUI.sendKeys(findTestObject('Jadwal/Tambah Jadwal/Alert/input_Tanggal Effective'), '12/30/2021')
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Jadwal/Tambah Jadwal/Hari Kerja/input_NamaJadwal'), 'a2testing')
+WebUI.setText(findTestObject('Jadwal/Tambah Jadwal/Hari Kerja/input_NamaJadwal'), 'test lain')
 
 WebUI.click(findTestObject('Jadwal/Tambah Jadwal/Hari Kerja/btn_HariKerja'))
 
@@ -99,8 +97,4 @@ WebUI.click(findTestObject('Object Repository/Jadwal/Tambah Jadwal/Hari Kerja/Da
 WebUI.verifyElementPresent(findTestObject('Jadwal/Tipe_Jadwal Option/Page_HADIR/th_NAMA'), 0)
 
 WebUI.comment('✅ Vallidasi halaman Jadwal.')
-
-WebUI.delay(1)
-
-WebUI.closeBrowser()
 
