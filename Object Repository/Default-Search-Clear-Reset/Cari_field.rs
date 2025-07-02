@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mui-4']</value>
+         <value>//input[@name = 'search' and @placeholder = 'Cari berdasarkan nama' and @type = 'search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bd9c2e58-38e3-4a74-ae7a-6d4d0d294695</webElementGuid>
+      <webElementGuid>8084427e-c46e-4f4b-9808-e48d0e852f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5756e17b-5da2-473e-8c4c-82aa4191b752</webElementGuid>
+      <webElementGuid>aeba9aa0-f1dc-43b2-8cbc-3c8091ba4877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>3f676d45-12c2-4947-a2cd-30e3ffda7a8c</webElementGuid>
+      <webElementGuid>afa1232b-08d6-4113-9c78-cce9f449e4ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Cari berdasarkan nama</value>
-      <webElementGuid>82f053ac-a38c-473c-bb24-f78a7ccc8562</webElementGuid>
+      <webElementGuid>633c4d5f-7225-4ab6-baea-2667d202a9eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>335d9065-ae00-4295-8161-6552f690f0c7</webElementGuid>
+      <webElementGuid>e0a5634d-b106-4e1e-9c6a-2e9a09dc34c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputTypeSearch MuiInputBase-inputSizeSmall css-1sm1gol</value>
-      <webElementGuid>c579ae93-92a2-474d-b956-9c1d50474fb9</webElementGuid>
+      <webElementGuid>21aa3ffa-e35e-4e2a-98c7-c2a9997a733c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-4</value>
-      <webElementGuid>4a57456f-4cec-421b-906b-9ec9f7646cef</webElementGuid>
+      <webElementGuid>401056bd-ec2b-474f-9b97-22beff0d5d29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-4&quot;)</value>
-      <webElementGuid>d79767aa-6df1-4f00-9704-d01101675459</webElementGuid>
+      <webElementGuid>21d9a531-8a95-4794-a35e-70e434e9ae66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mui-4']</value>
-      <webElementGuid>bddfe380-cbd1-44d9-815b-f35e7ba150cc</webElementGuid>
+      <webElementGuid>ce8b8c26-fbdf-440d-b3e0-e551d8e0c146</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div/div/section/div/div/div/form/div/div/div/input</value>
-      <webElementGuid>e0ae8a39-b2a2-42a3-b7f8-92a0e4e27088</webElementGuid>
+      <webElementGuid>c52529ae-3d2e-4bc1-a750-58a0a8dcf38b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>9ce54cbf-2f1e-4371-8796-dbc6af90feb3</webElementGuid>
+      <webElementGuid>b3b602f3-1ce4-4141-b271-efe731b709a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'search' and @placeholder = 'Cari berdasarkan nama' and @type = 'search' and @id = 'mui-4']</value>
-      <webElementGuid>ec7c9ef4-94cd-460f-b968-08942cf96dd6</webElementGuid>
+      <webElementGuid>9c45ffc1-0a61-44cf-84cd-fb35b1f36ea3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

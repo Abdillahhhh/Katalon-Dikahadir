@@ -39,6 +39,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AturanCuti/Tambah/Bulan Batas Sisa Cuti_field_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Default-Search-Clear-Reset/Cari_field",
+      "brokenLocator": "//input[@id\u003d\u0027mui-4\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Default-Search-Clear-Reset/Cari_field_position.png"
     }
   ]
 }
