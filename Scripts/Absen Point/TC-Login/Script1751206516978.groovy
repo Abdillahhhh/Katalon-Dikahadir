@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
 WebUI.setText(findTestObject('Absen_Point/Page_Login/Email Field'), 'admin@hadir.com')
